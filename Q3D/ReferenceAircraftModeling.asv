@@ -1,0 +1,75 @@
+%% Aerodynamic solver setting
+clear all
+close all
+clc
+
+% REF = load_AC('A330_REF_data.mat');
+
+%% Geometry set up
+% Wing planform geometry 
+REF.Wing.dihedral = 4.72*pi/180;
+REF.Wing.LEsweep = 30*pi/180;
+REF.Wing.TaperOuter = 2.2/7.69313;
+REF.Wing.span = 60.3;
+REF.Wing.y = [0, 8.15989, REF.Wing.span/2];
+REF.Wing.x = REF.Wing.LEsweep.*REF.Wing.y;
+REF.Wing.z = REF.Wing.dihedral
+
+%                x                                  y                z                                  chord(m)    twist angle (deg) 
+REF.Wing.Geom = [REF.Wing.LEsweep*0                 REF.Wing.y(1)                REF.Wing.dihedral*0                 12.0781     0;
+                 REF.Wing.LEsweep*8.15989           REF.Wing.y(2)          REF.Wing.dihedral*8.15989           7.69313     0;
+                 REF.Wing.LEsweep*REF.Wing.span/    REF.Wing.y(3)  REF.Wing.dihedral*REF.Wing.span/2   2.2         0];
+REF.Wing.Sref = 30; % TODO -----------------------
+
+% Wing incidence angle (degree)
+REF.Wing.inc  = 2;   
+   
+            
+% Airfoil coefficients input matrix
+%                    | ->     upper curve coeff.                <-|   | ->       lower curve coeff.       <-| 
+REF.Wing.Airfoils   = [0.1459   0.1809    0.1075    0.2600    0.2516  -0.2034   0.0091    -0.3087    0.0758    0.0643;
+                       0.1459   0.1809    0.1075    0.2600    0.2516  -0.2034   0.0091    -0.3087    0.0758    0.0643];
+REF.Wing.eta = [0;1];  % Spanwise location of the airfoil sections
+
+% Engines
+REF.Engine.y = 9.17868;
+REF.Engine.num = 2; 
+REF.Engine.Wdry = 6160;           % Dry engine weight, not including fluids and nacelle EBU
+
+% Flight Condition
+REF.Aero.V     = 68;            % flight speed (m/s)
+REF.Aero.rho   = 1.225;         % air density  (kg/m3)
+REF.Aero.alt   = 0;             % flight altitude (m)
+REF.Aero.Re    = 1.14e7;        % reynolds number (bqased on mean aerodynamic chord)
+REF.Aero.M     = 0.2;           % flight Mach number 
+
+
+% Weights
+REF.W.MTOW = 217000;
+REF.W.ZFW = 169000;
+REF.W.OE = 118189;
+REF.W.des = (217000 + 169000) / 2;      % TODO -----------------------
+
+% Max. take-off		217000
+% Max. landing		179000
+% Zero-fuel		169000
+% Max. payload		48400
+% Max. fuel payload		18600
+% Design 	28025
+% Design fuel load		70786
+% Operational empty		118189
+
+
+%% Aerodynamic Solver
+tic
+n = 1;
+REF.Res.vis = get_Aero(REF, REF.W.des, n,  "viscous");
+toc
+
+
+tic
+n=2.5;
+REF.Res.vis = get_Aero(REF, REF.W.MTOW, 2.5, "inviscid");
+toc
+
+save('A330_REF_data.mat', 'REF');   % saves AC into a .mat file

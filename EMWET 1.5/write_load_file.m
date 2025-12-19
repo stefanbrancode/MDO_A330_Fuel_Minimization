@@ -1,0 +1,55 @@
+function write_load_file(AC)
+% create string filename
+filename = AC.Name + ".load";     
+% convert to char for fopen
+fid = fopen(char(filename), 'w'); 
+if fid < 0
+    error("Could not open file: %s", filename);
+end
+
+% Values
+q = 0.5*AC.Mission.MO.rho*AC.Mission.MO.V^2;
+eta = 2.*AC.Res.invis.Wing.Yst/AC.Wing.span;
+
+y = AC.Res.invis.Wing.Yst;
+for i = 1:(length(y))
+    if y(i)<=AC.Wing.y(2)
+        c(i) = AC.Wing.c(1) + y(i) .* (tan(AC.Wing.sweepTE(1))-tan(AC.Wing.sweepLE));
+    else
+        c(i) = AC.Wing.c(2) + (y(i) -AC.Wing.y(2)) .* (tan(AC.Wing.sweepTE(2))-tan(AC.Wing.sweepLE));
+    end
+end
+c = c(:);
+
+y = [-y(1); y; 60.3/2];
+for i = 1:(length(y)-1)
+    y_(i)= (y(i+1)+y(i)) / 2;
+end
+y_ = y_(:);
+y_(end) = 60.3/2;
+for i = 1:(length(y_)-1)
+    dy(i) = y_(i+1) - y_(i);
+end
+dy = dy(:);
+
+
+
+ccl = AC.Res.invis.Wing.ccl(:);
+ccl_ = ccl./c;
+cm_c4 = AC.Res.invis.Wing.cm_c4(:);
+CLwing  = AC.Res.invis.CLwing(:);
+Sref = AC.Wing.Sref(:);
+CMwing = AC.Res.invis.CMwing(:);
+
+l = q .* ccl   .* dy;
+m = q .* cm_c4 .* dy .* c.^2;
+L = q .* CLwing * Sref
+L = 2 * sum(l)
+M = q .* CMwing * Sref * AC.Wing.MAC
+M = 2 * sum(m)
+for i = 1:length(eta)
+    fprintf(fid, '%g %g %g \n', eta(i), l(i), m(i));
+end
+fclose(fid);
+
+end
