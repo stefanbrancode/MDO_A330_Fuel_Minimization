@@ -9,6 +9,8 @@ clear; clc; close all;
 %% -------------------- USER INPUTS (edit these) -------------------------
 % Refernce Aircraft
 
+%Initialize the vectors for x and y coordinates 
+% for the upper and lower parts of the airfoil
 
 Ref.Airfoil.upper.x = [];
 Ref.Airfoil.upper.y = [];

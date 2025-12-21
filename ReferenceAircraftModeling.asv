@@ -13,7 +13,6 @@ for i = 1:length(folders)
 end
 %% Inputs
 REF.Name = "A330-300";
-
 % Wing planform geometry 
 REF.Wing.dihedral = 4.72*pi/180;
 REF.Wing.sweepLE = 32 * pi/180;
@@ -66,7 +65,7 @@ REF.Mission.MO.n        = 2.5;                                       % load fact
 
 % Weights
 REF.W.MTOW = 217000;                                        % Max. take-off weight
-REF.W.MZFW = 169000;                                        % Max. take-off weight
+REF.W.MZFW = 169000;                                        % Max. Zero fuel take-off weight
 REF.W.OEW = 118189;                                         % Operational empty weight
 REF.W.des_pay = 28025;                                      % Design payload weight
 
@@ -101,7 +100,7 @@ REF.Mission.dp.M = REF.Mission.dp.V / REF.Mission.dp.a; % flight Mach number
 REF.Mission.dp.Re = REF.Mission.dp.rho * REF.Mission.dp.V * REF.Wing.MAC / REF.Mission.dp.mu; % reynolds number (bqased on mean aerodynamic chord)
 
 % extrem load Flight Condition
-REF.Mission.MO          = get_Misssion(REF.Mission.MO, REF.Wing.MAC); 
+REF.Mission.MO= get_Mission(REF.Mission.MO, REF.Wing.MAC); 
 
 % Weights
 REF.W.fuel = REF.W.MTOW - REF.W.OEW - REF.W.des_pay;        % fuel weight for max range at design payload 
@@ -116,25 +115,31 @@ tic
 fprintf("start inviscid simulation \n");
 REF.Res.invis = get_Q3D(REF, REF.Mission.dp, REF.W.MTOW, "inviscid");
 t=toc;
-fprintf("Comutational time: %f2 s \n", t);
+fprintf("Computational time: %f2 s \n", t);
 
 tic
 fprintf("start viscous simulation \n");
 REF.Res.vis = get_Q3D(REF, REF.Mission.MO, REF.W.des, "viscous");
 t=toc;
-fprintf("Comutational time: %f2 s \n", t);
+fprintf("Computational time: %f2 s \n", t);
 
 %% wing structure Solver
 tic
 fprintf("start structual optimisation \n");
 REF = get_EMWET(REF);
 t=toc;
-fprintf("Comutational time: %f2 s \n", t);
+fprintf("Computational time: %f2 s \n", t);
 fprintf("Wing weight: %f2 kg\n", REF.W.Wing);
 
 %% Drag
+fprintf("Aircraft weight: %f2 kg\n", REF.W.Wing);
+
+REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing;     
 REF.W = get_Weight(REF.W);
-REF.Mission.CD = drag_from_breguet(AC);
+disp(REF.Res.vis.CDwing)
+REF.L_over_D_aircraft=16;
+
+REF.Mission.CD = REF.Res.vis.CLwing / REF.L_over_D_aircraft;
 REF.Mission.CD_woWing = REF.Mission.CD - REF.Res.vis.CDwing;
 
 %% Visualisation

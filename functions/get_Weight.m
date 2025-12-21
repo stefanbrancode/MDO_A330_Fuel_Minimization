@@ -15,6 +15,7 @@ function W = get_Weight(W)
 %       W.des         - Design (cruise) weight          [kg]
 %       W.cruisefrac  - Cruise weight fraction          [-]
 
+    %W.ACwoW = W.MTOW - W.fuel - W.Wing;
     % Maximum Take-Off Weight (MTOW)
     W.MTOW = W.ACwoW + W.fuel + W.Wing;           % [kg]
 
