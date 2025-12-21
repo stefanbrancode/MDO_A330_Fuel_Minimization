@@ -1,4 +1,4 @@
-function Mission = get_Misssion(Mission, MAC)
+function Mission = get_Mission(Mission, MAC)
 % Inputs:
 % Mission.alt;   
 % Mission.M;  

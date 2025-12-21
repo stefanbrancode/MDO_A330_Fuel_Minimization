@@ -1,6 +1,6 @@
-function [T, p, rho, a, nu] = get_ISA(H, dT)
+function [T, p, rho, a, mu] = get_ISA(H, dT)
 %% International Standard Atmosphere Calculator
-% Calculates the temperature, pressure, density, speed of sound, and kinematic viscosity
+% Calculates the temperature, pressure, density, speed of sound, and dynamic viscosity
 % for a given altitude (H) and temperature deviation from standard (dT).
 
 % Inputs:
@@ -12,7 +12,7 @@ function [T, p, rho, a, nu] = get_ISA(H, dT)
 % p     [Pa]
 % rho   [kg/m^3]
 % a     [m/s]
-% nu    [m^2/s]
+% mu    [m^2/s]
 
 if nargin<2, dT=0; end
 
@@ -20,7 +20,7 @@ if nargin<2, dT=0; end
 T_0 = 288.15;           % [K] Standard sea level temperature
 p_0 = 1.013250e5;       % [Pa] Standard sea level pressure
 rho_0 = 1.2250;         % [kg/m^3] Standard sea level density
-nu_0 = 1.7894e-5;       % [m^2/s] Standard sea level kinematic viscosity
+mu_0 = 1.7894e-5;       % [m^2/s] Standard sea level dynamic viscosity
 g_0 = 9.80665;          % [m/s^2] Acceleration due to gravity
 
 T_S = 110;              % [K] Sutherland's constant for air
@@ -57,6 +57,6 @@ p(aboveStrat) = NaN;
 % Adjust temperature with deviation and calculate other properties
 rho = p ./ (R .* T);
 a = sqrt(kap * R .* T);
-nu = nu_0 * (T/T_0) .^ (3/2) .* ((T_0+T_S) ./ (T+T_S)); % Sutherland's formula for viscosity
+mu = mu_0 * (T/T_0) .^ (3/2) .* ((T_0+T_S) ./ (T+T_S)); % Sutherland's formula for viscosity
 
 end
