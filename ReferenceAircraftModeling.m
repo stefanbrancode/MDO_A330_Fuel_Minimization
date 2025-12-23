@@ -113,13 +113,14 @@ REF = get_Geometry(REF);
 %% Aerodynamic Solver
 tic
 fprintf("start inviscid simulation \n");
-REF.Res.invis = get_Q3D(REF, REF.Mission.dp, REF.W.MTOW, "inviscid");
+REF.Res.invis = get_Q3D(REF, REF.Mission.MO, REF.W.MTOW, "inviscid");
 t=toc;
 fprintf("Computational time: %f2 s \n", t);
 
+%Run this to get drag at cruise conditions
 tic
 fprintf("start viscous simulation \n");
-REF.Res.vis = get_Q3D(REF, REF.Mission.MO, REF.W.des, "viscous");
+REF.Res.vis = get_Q3D(REF, REF.Mission.dp, REF.W.des, "viscous");
 t=toc;
 fprintf("Computational time: %f2 s \n", t);
 

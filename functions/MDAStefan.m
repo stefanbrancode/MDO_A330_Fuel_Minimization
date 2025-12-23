@@ -1,0 +1,30 @@
+function [aircraft] = MDAStefan(aircraft)
+%MDASTEFAN MDA convergence loop
+aircraft_old=aircraft;
+error=1;
+while (error) > 1e-6
+%give guess for MTOW as the last computed value for MTOW
+ 
+W_MTO_hat = aircraft.W.MTOW;
+tic
+fprintf("start inviscid simulation \n");
+aircraft.Res.invis = get_Q3D(aircraft, aircraft.Mission.dp, W_MTO_hat, "inviscid");
+t=toc;
+fprintf("Computational time: %f2 s \n", t);
+
+tic
+fprintf("start structual optimisation \n");
+aircraft = get_EMWET(aircraft);
+t=toc;
+fprintf("Computational time: %f2 s \n", t);
+fprintf("Wing weight: %f2 kg\n", aircraft.W.Wing);
+
+fprintf("Aircraft weight: %f2 kg\n", aircraft.W.MTOW); 
+aircraft.W = get_Weight(aircraft.W);
+
+error= aircraft.W.MTOW-aircraft_old.W.MTOW;
+aircraft_old=aircraft;
+
+end
+
+end

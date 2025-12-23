@@ -5,7 +5,7 @@ origDir = pwd;
 cd('EMWET 1.5')
 
 write_init_file(AC); 
-write_load_file(AC);
+write_load_file_new(AC);
 write_Airfoil_file(AC);
 try 
     EMWET A330-300
