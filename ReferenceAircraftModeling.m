@@ -133,7 +133,7 @@ fprintf("Computational time: %f2 s \n", t);
 fprintf("Wing weight: %f2 kg\n", REF.W.Wing);
 
 %% Drag
-fprintf("Aircraft weight: %f2 kg\n", REF.W.Wing);
+fprintf("Aircraft weight: %f2 kg\n", REF.W.MTOW);
 
 REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing;     
 REF.W = get_Weight(REF.W);
@@ -142,6 +142,8 @@ REF.L_over_D_aircraft=16;
 
 REF.Mission.CD = REF.Res.vis.CLwing / REF.L_over_D_aircraft;
 REF.Mission.CD_woWing = REF.Mission.CD - REF.Res.vis.CDwing;
+
+REF = MDAStefan(REF);
 
 %% Visualisation
 

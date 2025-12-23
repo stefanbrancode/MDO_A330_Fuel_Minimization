@@ -1,13 +1,14 @@
-function [outputArg1,outputArg2] = MDAStefan(aircraft,inputArg2)
+function [aircraft] = MDAStefan(aircraft)
 %MDASTEFAN MDA convergence loop
 aircraft_old=aircraft;
-error=1;
+error=1; % to replace the do while haha
+iteration =1 %for monitoring purposes
+
 while (error) > 1e-6
 %give guess for MTOW as the last computed value for MTOW
  
-
-
 W_MTO_hat = aircraft.W.MTOW;
+
 tic
 fprintf("start inviscid simulation \n");
 aircraft.Res.invis = get_Q3D(aircraft, aircraft.Mission.dp, W_MTO_hat, "inviscid");
@@ -26,6 +27,8 @@ aircraft.W = get_Weight(aircraft.W);
 
 error= aircraft.W.MTOW-aircraft_old.W.MTOW;
 aircraft_old=aircraft;
+
+iteration =iteration +1
 
 end
 
