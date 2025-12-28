@@ -1,0 +1,33 @@
+function R = Optimization(x)
+%{ design vector is:
+%planform
+% x(1) = root chrod
+% x(2) = leading edge sweep angle
+% x(3) = Taper ratio: tip chord/kink chord
+% x(4) = span between tip and kink
+%Mission parameters
+%
+%airfoil
+% x(5),x(6),x(7), x(8), x(9) = CSt 
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+% x(2) =
+%}
+end

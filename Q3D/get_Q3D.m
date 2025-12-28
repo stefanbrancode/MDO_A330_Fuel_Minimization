@@ -31,7 +31,10 @@ AC.Aero.alt   = Mission.alt;             % flight altitude (m)
 AC.Aero.Re    = Mission.Re;        % reynolds number (bqased on mean aerodynamic chord)
 AC.Aero.M     = Mission.M;           % flight Mach number 
 AC.Aero.CL    = (9.81*W*Mission.n)  / (0.5 * Mission.rho * Mission.V^2 * AC_IN.Wing.Sref);          % lift coefficient - comment this line to run the code for given alpha% 
-disp(AC.Aero.CL)
+
+%print statement
+AC.Aero.CL
+
 %% 
 cd 'Q3D'
 % AeroResults = Q3D_solver(AC);

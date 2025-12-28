@@ -135,15 +135,27 @@ fprintf("Wing weight: %f2 kg\n", REF.W.Wing);
 %% Drag
 fprintf("Aircraft weight: %f2 kg\n", REF.W.MTOW);
 
-REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing;     
+REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing     
 REF.W = get_Weight(REF.W);
-disp(REF.Res.vis.CDwing)
+
+REF.Res.vis.CDwing
+
 REF.L_over_D_aircraft=16;
 
 REF.Mission.CD = REF.Res.vis.CLwing / REF.L_over_D_aircraft;
 REF.Mission.CD_woWing = REF.Mission.CD - REF.Res.vis.CDwing;
 
+%% MDA consistency loop
 REF = MDAStefan(REF);
+%% Volume calculation
+
+Wing_Volume = get_Wing_Volume(REF, 150, 300);
+
+% Assume 80% of the wing volume is usable for fuel
+fueltank.Volume = 0.8 * Wing_Volume;
+fueltank.FuelDensity = 0.81715*1e3; % kg/m^3  
+fueltank.Available_fuel_mass = fueltank.Volume * fueltank.FuelDensity
+fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
 
 %% Visualisation
 
