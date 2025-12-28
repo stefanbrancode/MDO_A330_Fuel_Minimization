@@ -158,9 +158,9 @@ REF.Performance.R = (REF.Mission.dp.V / REF.Performance.CT ) * (REF.L_over_D_air
 Wing_Volume = get_Wing_Volume(REF, 150, 300);
 
 % Assume 80% of the wing volume is usable for fuel
-REF.fueltankData.Volume = 0.8 * Wing_Volume;
+REF.fueltankData.Volume = 0.93 * Wing_Volume;
 REF.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3  
-REF.fueltankData.Available_fuel_mass = REF.fueltankData.Volume * REF.fueltankData.FuelDensity
+REF.fueltankData.Available_fuel_mass = REF.fueltankData.Volume * REF.fueltankData.FuelDensity;
 fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
 
 %% Visualisation
