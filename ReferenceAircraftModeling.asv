@@ -132,7 +132,7 @@ t=toc;
 fprintf("Computational time: %f2 s \n", t);
 fprintf("Wing weight: %f2 kg\n", REF.W.Wing);
 
-%% Drag 
+%% Drag and Range
 fprintf("Aircraft weight: %f2 kg\n", REF.W.MTOW);
 
 REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing     
@@ -144,12 +144,8 @@ REF.L_over_D_aircraft=16;
 
 REF.Mission.CD = REF.Res.vis.CLwing / REF.L_over_D_aircraft;
 REF.Mission.CD_woWing = REF.Mission.CD - REF.Res.vis.CDwing;
-%% Range 
-%Breguet eqs:
-REF.Performance.eta = 1;
-REF.Performance.CTbar= 1.8639*1e-4;
-REF.Performance.CT = REF.Performance.CTbar / REF.Performance.eta;
-REF.Performance.R = (REF.Mission.dp.V / REF.Performance.CT ) * (REF.L_over_D_aircraft) * log(REF.W.MTOW/REF.W.ZFW);
+
+R = (REF.Mission.dp.V / ) * ()
 
 %% MDA consistency loop
 %REF = MDAStefan(REF);
