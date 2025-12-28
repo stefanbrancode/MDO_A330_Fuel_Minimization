@@ -146,15 +146,15 @@ REF.Mission.CD = REF.Res.vis.CLwing / REF.L_over_D_aircraft;
 REF.Mission.CD_woWing = REF.Mission.CD - REF.Res.vis.CDwing;
 
 %% MDA consistency loop
-REF = MDAStefan(REF);
+%REF = MDAStefan(REF);
 %% Volume calculation
 
 Wing_Volume = get_Wing_Volume(REF, 150, 300);
 
 % Assume 80% of the wing volume is usable for fuel
-fueltank.Volume = 0.8 * Wing_Volume;
-fueltank.FuelDensity = 0.81715*1e3; % kg/m^3  
-fueltank.Available_fuel_mass = fueltank.Volume * fueltank.FuelDensity
+REF.fueltankData.Volume = 0.8 * Wing_Volume;
+REF.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3  
+REF.fueltankData.Available_fuel_mass = REF.fueltankData.Volume * REF.fueltankData.FuelDensity
 fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
 
 %% Visualisation

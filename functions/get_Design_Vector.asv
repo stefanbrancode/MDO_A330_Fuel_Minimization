@@ -1,0 +1,12 @@
+function x = get_Design_Vector(AC)
+x(1) = AC.Wing.c(1);
+x(2) = AC.Wing.sweepLE;
+x(3) = AC.Wing.c(3)/AC.Wing.c(2);
+x(4) = AC.Wing.y(3) - AC.Wing.y(2);
+
+x(5) = AC.Mission.dp.M;
+x(6) = AC.Mission.dp.alt;
+x(7) = AC.fueltankData.Volume;
+
+x(8) = Wing.CST
+end
