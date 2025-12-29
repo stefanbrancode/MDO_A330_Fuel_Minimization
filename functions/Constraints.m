@@ -1,10 +1,10 @@
 function [Cineq, Ceq] = Constraints(x,AC,Ref)
 % volume of the fuel must be smaller than the volume of the tank (sanity check)    
-Cineq(1) = x(7) - AC.fueltankData.Volume; 
+%Cineq(1) = x(7) - AC.fueltankData.Volume; 
 % wing loading must be at most the maximum of the reference aircraft
 Cineq(2) = AC.W.MTOW/AC.Wing.Sref - Ref.W.MTOW/Ref.Wing.Sref;
 % fuel volume of the optimized design must be at most the same at the fuel
 % volume of the reference aircraft (emissions cap)
-Cineq(3) = x(7) - Ref.W.fuel;
+%Cineq(3) = x(7) - Ref.W.fuel;
 Ceq = [];
 end

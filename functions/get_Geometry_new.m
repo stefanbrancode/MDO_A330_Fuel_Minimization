@@ -1,39 +1,46 @@
-function AC = get_Geometry_new(AC,x)
-%Unpack values
-x_struct.root_chord = x(1);
-x_struct.leadingEdgeSweep = x(2);
-x_struct.TaperRatio_Tip_To_Kink = x(3);
-x_struct.span_Tip_To_Kink = x(4);
-x_struct.Mach = x(5);
-x_struct.altitude = x(6);
-x_struct.FuelVolume =x(7);
-x_struct.CST_up= x(8:12);
-x_struct.CST_low = x(13:17);
-
-
+function AC = get_Geometry_new(AC,x_struct)
 
 %% Assign Values
-AC.Wing.c(1) = x.root;
-AC.Wing.sweepLE = x(2);
-AC.Wing.Taper(2) = x(3);
-AC.Wing.y(3) = AC.Wing.y(2) + x(4);
+if isfield(x_struct, 'root_chord')
+    AC.Wing.c(1) = x_struct.root_chord;
+    disp(AC.Wing.c(1))
+    disp(x_struct.root_chord)
+end
 
-AC.Wing.Airfoil.CST_up = [x(8) , x(9), x(10) , x(11) , x(12)];
-AC.Wing.Airfoil.CST_low = [x(13) , x(14), x(15) , x(16) , x(17)];
+if isfield(x_struct, 'leadingEdgeSweep')
+    AC.Wing.sweepLE = x_struct.leadingEdgeSweep;
+end
+
+if isfield(x_struct, 'TaperRatio_Tip_To_Kink')
+    AC.Wing.Taper(2) = x_struct.TaperRatio_Tip_To_Kink;
+end
+
+if isfield(x_struct, 'span_Tip_To_Kink')
+AC.Wing.y(3) = AC.Wing.y(2) + x_struct.span_Tip_To_Kink;
+end
+
+if isfield(x_struct, 'CST_up')
+AC.Wing.Airfoil.CST_up = x_struct.CST_up;
+end
+
+if isfield(x_struct, 'CST_low')
+AC.Wing.Airfoil.CST_low = x_struct.CST_low;
+end
+
+
 
 
 %% Calulate Values
 AC.Wing.y(1) = 0; % origin definition
-% AC.Wing.y(2) stays constant throughout the optimization.
-AC.Wing.y(3) = AC.Wing.y(2) + x(4); 
 
 AC.Wing.x(1) = 0;
-AC.Wing.x(2) = AC.Wing.y(2) * tan( x(2) );
-AC.Wing.x(3) = AC.Wing.y(3) * tan( x(2) );
+AC.Wing.x(2) = AC.Wing.y(2) * tan( AC.Wing.sweepLE );
+AC.Wing.x(3) = AC.Wing.y(3) * tan( AC.Wing.sweepLE );
 
+c_r = AC.Wing.c(1);
 c_k = AC.Wing.c(1) + (AC.Wing.x(1) - AC.Wing.x(2)) + (AC.Wing.y(2) - AC.Wing.y(1))* tan(AC.Wing.sweepTE(1));
 c_t = AC.Wing.Taper(2) * c_k;
-AC.Wing.c =[x(1) , c_k , c_t ];
+AC.Wing.c =[c_r , c_k , c_t ];
 
 taper(1) = AC.Wing.c(2)/AC.Wing.c(1); 
 AC.Wing.Taper(1)=taper(1);
@@ -75,12 +82,18 @@ xS1 = xS2 + m_spar * (y(1) - y(2));
 AC.Struct.spar_rear(1) =  (xS1 - AC.Wing.x(1)) / c(1);
 
 
-% Weights
-AC.W.fuel = x(7)*AC.fueltankData.FuelDensity;        % fuel weight for max range at design payload 
+% Weights TODO
+%AC.W.fuel = x(7)*AC.fueltankData.FuelDensity;        % fuel weight for max range at design payload 
 
 % normal Flight Condition
-AC.Mission.dp.alt   = x(6);             % flight altitude (m)
-AC.Mission.dp.M     = x(5);                                    % [-] cruise machn number 
+
+if isfield(x_struct, 'altitude')
+AC.Mission.dp.alt   = x_struct.altitude; % flight altitude (m)
+end
+
+if isfield(x_struct, 'Mach')
+AC.Mission.dp.M     = x_struct.Mach;   % Mach Number (m)
+end 
 
 end
 
