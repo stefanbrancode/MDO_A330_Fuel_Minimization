@@ -14,7 +14,7 @@ Xtu = sortrows(Xtu, -1);
 Xtl = sortrows(Xtl, 1);
     
 % create string filename
-filename = AC.Wing.Airfoil_Name  + ".dat";     
+filename = AC.Name  + ".dat";     
 % convert to char for fopen and Open file
 fid = fopen(char(filename), 'w');
 if fid < 0

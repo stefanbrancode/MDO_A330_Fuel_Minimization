@@ -135,7 +135,7 @@ fprintf("Wing weight: %f2 kg\n", REF.W.Wing);
 %% Drag 
 fprintf("Aircraft weight: %f2 kg\n", REF.W.MTOW);
 
-REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing     
+REF.W.ACwoW = REF.W.MTOW - REF.W.fuel - REF.W.Wing;     
 REF.W = get_Weight(REF.W);
 
 REF.Res.vis.CDwing

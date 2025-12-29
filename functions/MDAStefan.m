@@ -7,28 +7,21 @@ iteration =1 %for monitoring purposes
 while (abs(error)) > 1e-6
 %give guess for MTOW as the last computed value for MTOW
  
-W_MTO_hat = aircraft.W.MTOW
+W_MTO_hat = aircraft.W.MTOW; %store old MTOW of aircraft
+W_old_wing = aircraft.W.Wing; %store old Mass of the wing;
 
-tic
-fprintf("start inviscid simulation \n");
-aircraft.Res.invis = get_Q3D(aircraft, aircraft.Mission.dp, W_MTO_hat, "inviscid");
-t=toc;
-fprintf("Computational time: %f2 s \n", t);
+%% Q3D inviscid
+aircraft.Res.invis = get_Q3D(aircraft, aircraft.Mission.dp, W_MTO_hat, "inviscid"); %Calculate Lift and Moment distributions
 
-W_old_wing = aircraft.W.Wing;
-
-tic
-fprintf("start structual optimisation \n");
+%% EMWET
 aircraft = get_EMWET(aircraft);
-t=toc;
-fprintf("Computational time: %f2 s \n", t);
 fprintf("Wing weight: %f2 kg\n", aircraft.W.Wing);
 
-aircraft.W.MTOW = aircraft.W.MTOW-W_old_wing+aircraft.W.Wing
-
-fprintf("Aircraft weight: %f2 kg\n", aircraft.W.MTOW); 
-aircraft.W = get_Weight(aircraft.W);
-
+%% WEIGHT 
+aircraft.W.MTOW = aircraft.W.MTOW - W_old_wing + aircraft.W.Wing; 
+fprintf("Aircraft weight: %f2 kg\n", aircraft.W.MTOW);
+aircraft.W.ZFW  = aircraft.W.MTOW - aircraft.W.fuel;
+aircraft.W.des  = sqrt( aircraft.W.MTOW * (aircraft.W.MTOW - aircraft.W.fuel) ); % Design weight during cruise (geometric mean of start/end cruise weight)
 
 error= aircraft.W.MTOW-aircraft_old.W.MTOW
 

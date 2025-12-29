@@ -32,7 +32,7 @@ fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu
 fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu.Ft, AC.Struct.Alu.Fc);
 
 fprintf(fid,'%g %g \n',AC.Struct.eff_factor,AC.Struct.pitch_rib);
-fprintf(fid,'1 \n');
+fprintf(fid,'0 \n');
 fclose(fid);
 
 end

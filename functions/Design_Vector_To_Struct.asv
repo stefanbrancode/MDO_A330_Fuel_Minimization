@@ -1,0 +1,12 @@
+function x_struct= Design_Vector_To_Struct(x)
+
+x_struct.root_chord = x(1);
+x_struct.leadingEdgeSweep = x(2);
+x_struct.TaperRatio_Tip_To_Kink = x(3);
+x_struct.span_Tip_To_Kink = x(4);
+x_struct.Mach = x(5);
+x_struct.altitude = x(6);
+x_struct.FuelVolume =x(7);
+x_struct.CST_up= x;
+x_struct.CST_low = ;
+end

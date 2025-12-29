@@ -2,6 +2,12 @@ function AC = Assign(x, AC)
 % will assaign the different design variables to the propperly named
 % variables
 
+%
+AC.Wing.c(1)
+
+
+
+
 % Wing planform geometry
 AC.Wing.span = x(1);
 AC.Wing.c(2) = x(1);

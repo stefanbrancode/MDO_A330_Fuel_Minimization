@@ -19,7 +19,7 @@ AC = MDAStefan(AC); %MDA consistency loop
 AC.Res.vis = get_Q3D(AC, AC.Mission.dp, AC.W.des, "viscous"); %viscous analysis to obtain Drag
 AC = Performance(AC, REF); % Breguet eqs 
 %Minimize -Range
-R = -AC.Performance.R 
+R = -AC.Performance.R
 
 %% Volume calculation
 Wing_Volume = get_Wing_Volume(REF, 150, 300);
@@ -28,6 +28,7 @@ REF.fueltankData.Volume = 0.93 * Wing_Volume;
 REF.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3  
 REF.fueltankData.Available_fuel_mass = REF.fueltankData.Volume * REF.fueltankData.FuelDensity;
 
+x = get_Design_Vector(AC);
 disp('ITERATION FINISHED')
 %print_WingPlanfrom(REF,AC);
 end

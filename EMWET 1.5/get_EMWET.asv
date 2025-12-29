@@ -10,7 +10,7 @@ disp(AC.Name)
 write_Airfoil_file(AC);
 
 %try 
-EMWET A330-300_MOD
+EMWET 'AC.Name)
 AC = read_weight_file(AC);
 %catch error
 %    AC.W.Wing = inf;

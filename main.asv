@@ -19,20 +19,23 @@ Ref=REF;
 %Ref.Airfoil.lower.x = [];
 %Ref.Airfoil.lower.y = [];
 
-lb = [ -Inf, -Inf , 0.01*pi/180 , 0, ...
-    0.9*Ref.Mission.Ma, ...
-    0.9*Ref.Mission.H, ...
-    0.5*Ref.Mission.W.Fuel, ...
-    0, -0.3, -0.3, -0.3, -0.05, ...
-    -0.2, -0.5, -0.5, -0.5, -0.05]; 
-ub = [ Inf, Inf, 70*pi/180 , 1, ... 
-    1.1*Ref.Mission.Ma, ...
-    1.1*Ref.Mission.H, ...
-    Ref.Mission.W.Fuel, ...
-    0.2, 0.5, 0.5, 0.5, 0.05, ...
-    0,    0.3,  0.3,  0.3,  0.05
-    ]; 
+lb = [ Ref.Wing.c(1)*0.5, 0.01*pi/180 , 0 , 0, ...
+    0.9*Ref.Mission.dp.M, ...
+    0.9*Ref.Mission.dp.alt, ...
+    0.5*Ref.fueltankData.Volume, ...
+    -5, -5, -5, -5, -5, ...
+    -5, -5, -5, -5, -5]; 
 
+ub = [ Ref.Wing.c(1)*1.5 , 70*pi/180 , 1 , 2*(Ref.Wing.y(3)-Ref.Wing.y(2)), ... 
+    1.1*Ref.Mission.dp.M, ...
+    1.1*Ref.Mission.dp.alt, ...
+    1.5*Ref.fueltankData.Volume, ...
+    5, 5, 5, 5, 5, ...
+    5, 5, 5, 5, 5]; 
+
+lb_norm = zeros(1, length(lb));
+ub_norm = ones(1, length(ub));
+MOD=REF
 MOD.Name = "A330-300_MOD";
 "MOD_Airfoil_Coords"
 % Optimasation options
@@ -42,7 +45,7 @@ options.Algorithm       = 'sqp';
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
-options.MaxIter         = 1000;          % Maximum iterations
+options.MaxIter         = 5;          % Maximum iterations
 
 
 %% -------------------- Derived parameters & initialization ----------------
@@ -51,19 +54,23 @@ options.MaxIter         = 1000;          % Maximum iterations
 %x=[root chord, LE sweep angle, Taper ratio, span kink to tip]
 %x0 = [Ref.Wing.c(1) , Ref.Wing.sweepLE , Ref.Wing.c(3)/Ref.Wing.c(2) , Ref.Wing.y(3)-Ref.Wing.y(2), Ref.Mission.dp.M ,Ref.Mission.dp.alt ,Ref.Wing.Airfoil.CST_up , Ref.Wing.Airfoil.CST_low];
 x0= get_Design_Vector(Ref)
-
+x0_normalized = Normalize_Design_Vector(x0,lb,ub); 
 %% -------------------- Optimization --------------------------
 tic;
-[x,R_opt,EXITFLAG,OUTPUT] = fmincon(@(x) Optimization(x),x0,[],[],[],[],lb,ub,@(x) Constraint(x),options);
+[x,R_opt,EXITFLAG,OUTPUT] = fmincon(@(x_normalized) Optimization_Stefan(MOD, x_normalized,Ref,lb,u),x0_normalized,[],[],[],[],lb_norm,ub_norm,@(x_normalized) Constraints(x_normalized, MOD, Ref ),options);
 tSolver = toc;
 R_opt
 
 
 
 %% -------------------- Outputs and Visualization ------------------------------------
-print_WingPlanfrom(Ref, Mod);
+print_WingPlanfrom(Ref, MOD);
+disp(x)
+disp(x0)
+xcompare=[Ref.Performance.R, x0 ; MOD.Performance.R, Denormalize_Design_Vector(x)]
 
-
+%% Save Optimized Aircraft File
+save("A330-300_MOD.mat", "MOD");   % saves AC data  into a .mat file
 
 
 %% -------------------- Nested ODE function -------------------------------
