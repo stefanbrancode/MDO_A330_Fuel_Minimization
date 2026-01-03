@@ -33,15 +33,15 @@ AC.Wing.Geom = [AC.Wing.x(1)      AC.Wing.y(1)       AC.Wing.z(1)       AC.Wing.
 AC.Wing.Airfoils   = [AC.Wing.Airfoil.CST_up, AC.Wing.Airfoil.CST_low;
                        AC.Wing.Airfoil.CST_up, AC.Wing.Airfoil.CST_low];
 
-% Spar at root position     TODO ------------------
-f = AC.Struct.spar_front(3);  % 0.20 = front spar, 0.80 = rear spar
+% Spar at root position  
+f = AC.Struct.spar_front(3);  
 xS2 = AC.Wing.x(2) + f * c(2);
 xS3 = AC.Wing.x(3) + f * c(3);
 m_spar = (xS3 - xS2) / (y(3) - y(2));
 xS1 = xS2 + m_spar * (y(1) - y(2));
 AC.Struct.spar_front(1) =  (xS1 - AC.Wing.x(1)) / c(1);
 
-f = AC.Struct.spar_rear(3);  % 0.20 = front spar, 0.80 = rear spar
+f = AC.Struct.spar_rear(3);  
 xS2 = AC.Wing.x(2) + f * c(2);
 xS3 = AC.Wing.x(3) + f * c(3);
 m_spar = (xS3 - xS2) / (y(3) - y(2));

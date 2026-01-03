@@ -21,7 +21,7 @@ fprintf(fid, '%g %g %g %g %g %g \n', AC.Wing.c(1), AC.Wing.x(1), AC.Wing.y(1), A
 fprintf(fid, '%g %g %g %g %g %g \n', AC.Wing.c(2), AC.Wing.x(2), AC.Wing.y(2), AC.Wing.z(2), AC.Struct.spar_front(2), AC.Struct.spar_rear(2));
 fprintf(fid, '%g %g %g %g %g %g \n', AC.Wing.c(3), AC.Wing.x(3), AC.Wing.y(3), AC.Wing.z(3), AC.Struct.spar_front(3), AC.Struct.spar_rear(3));
 
-fprintf(fid, '%g %g \n', AC.fueltank(1), AC.fueltank(2));
+fprintf(fid, '%g %g \n', AC.Fuel_Tank.eta(1), AC.Fuel_Tank.eta(2));
 
 fprintf(fid, '%g \n', AC.Engine.num/2);
 fprintf(fid, '%g  %g \n', AC.Engine.eta, AC.Engine.Winstalled);

@@ -19,7 +19,7 @@ x_struct = Design_Vector_To_Struct(x,fields_active);
 AC = get_Geometry_new(AC,x_struct); %put design vector variables into the aircraft struct
 AC = MDAStefan(AC); %MDA consistency loop
 AC.Res.vis = get_Q3D(AC, AC.Mission.dp, AC.W.des, "viscous"); %viscous analysis to obtain Drag
-AC = Performance(AC, REF); % Breguet eqs 
+AC = get_Performance(AC, REF); % Breguet eqs 
 %Minimize -Range
 R = -AC.Performance.R 
 

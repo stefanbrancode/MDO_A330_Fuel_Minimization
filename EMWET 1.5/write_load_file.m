@@ -8,13 +8,10 @@ if fid < 0
 end
 
 % Values
-q = 0.5*AC.Mission.MO.rho*AC.Mission.MO.V^2; % dynamic pressure at MO
-% Yst= spanwise location of strips   
-eta = 2.*AC.Res.invis.Wing.Yst/AC.Wing.span; % normalized spanwise location of strips
+q = 0.5*AC.Mission.MO.rho*AC.Mission.MO.V^2;
+eta = 2.*AC.Res.invis.Wing.Yst/AC.Wing.span;
 
 y = AC.Res.invis.Wing.Yst;
-
-% this loop calculates the chord length at each station and stores it in c
 for i = 1:(length(y))
     if y(i)<=AC.Wing.y(2)
         c(i) = AC.Wing.c(1) + y(i) .* (tan(AC.Wing.sweepTE(1))-tan(AC.Wing.sweepLE));
@@ -22,35 +19,37 @@ for i = 1:(length(y))
         c(i) = AC.Wing.c(2) + (y(i) -AC.Wing.y(2)) .* (tan(AC.Wing.sweepTE(2))-tan(AC.Wing.sweepLE));
     end
 end
-c = c(:); %columnize the vector
-disp("y vector")
-disp(y)
- 
-y_new = [0.0; y; 60.3/2]
-for i = 1:(length(y_new)-1)
-    y_(i)= (y_new(i+1)+y_new(i)) / 2;
+c = c(:);
+
+y = [-y(1); y; 60.3/2];
+for i = 1:(length(y)-1)
+    y_(i)= (y(i+1)+y(i)) / 2;
 end
 y_ = y_(:);
 y_(end) = 60.3/2;
 for i = 1:(length(y_)-1)
     dy(i) = y_(i+1) - y_(i);
 end
-dy = dy(:)
-y(1) = 0
-y(14) = 60.3/2
-eta = 2.*y/AC.Wing.span % normalized spanwise location of strips
-ccl = AC.Res.invis.Wing.ccl(:); %local lif coefficient divided by local chord
-cm_c4 = AC.Res.invis.Wing.cm_c4(:); %local moment coefficient about quarter chord
+dy = dy(:);
+
+
+
+ccl = AC.Res.invis.Wing.ccl(:);
+ccl_ = ccl./c;
+cm_c4 = AC.Res.invis.Wing.cm_c4(:);
 CLwing  = AC.Res.invis.CLwing(:);
 Sref = AC.Wing.Sref(:);
 CMwing = AC.Res.invis.CMwing(:);
 
-l = q .* ccl   .* dy
-m = q .* cm_c4 .* dy .* c.^2
+l = q .* ccl   .* dy;
+m = q .* cm_c4 .* dy .* c.^2;
+
+% Test Valititi of model
 L = q .* CLwing * Sref
 L = 2 * sum(l)
 M = q .* CMwing * Sref * AC.Wing.MAC
 M = 2 * sum(m)
+
 
 for i = 1:length(eta)
     fprintf(fid, '%g %g %g \n', eta(i), l(i), m(i));

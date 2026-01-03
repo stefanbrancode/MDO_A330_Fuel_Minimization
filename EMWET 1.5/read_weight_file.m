@@ -7,6 +7,6 @@ if fid < 0
     error("Could not open file: %s", filename);
 end
 data = textscan(fid, '%sg', 'Delimiter', '\n'); %read all data as string
-AC.W.Wing = str2num(data{1}{1}(23:end));
+AC.W.Wing = 9.81*str2num(data{1}{1}(23:end));
 fclose(fid);
 end

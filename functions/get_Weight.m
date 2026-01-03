@@ -17,15 +17,15 @@ function W = get_Weight(W)
 
     %W.ACwoW = W.MTOW - W.fuel - W.Wing;
     % Maximum Take-Off Weight (MTOW)
-    W.MTOW = W.ACwoW + W.fuel + W.Wing           % [kg]
+    W.MTOW = W.ACwoW + W.fuel + W.Wing;           % [kg]
   
     % Zero-Fuel Weight (ZFW)
-    W.ZFW  = W.MTOW - W.fuel                     % [kg]
+    W.ZFW  = W.MTOW - W.fuel;                     % [kg]
 
     % Design weight during cruise (geometric mean of start/end cruise weight)
-    W.des  = sqrt( W.MTOW * (W.MTOW - W.fuel) )  % [kg]
+    W.des  = sqrt( W.MTOW * (W.MTOW - W.fuel) );  % [kg]
 
     % Cruise weight fraction (including reserve / correction factor)
-    W.cruisefrac = (1 / 0.938) * (1 - W.fuel / W.MTOW)  % [-]
+    W.cruisefrac = (1 / 0.938) * (1 - W.fuel / W.MTOW);  % [-]
 
 end

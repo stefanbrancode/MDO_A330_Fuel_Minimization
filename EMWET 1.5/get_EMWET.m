@@ -6,15 +6,13 @@ cd('EMWET 1.5')
 
 write_init_file(AC); 
 write_load_file_new(AC);
-disp(AC.Name)
 write_Airfoil_file(AC);
-
-%try 
-EMWET A330-300_MOD
-AC = read_weight_file(AC);
-%catch error
-%    AC.W.Wing = inf;
-%end
+try 
+    EMWET A330-300
+    AC = read_weight_file(AC);
+catch error
+    AC.W.Wing = inf;
+end
 % return to original directory
 cd(origDir);
 end
