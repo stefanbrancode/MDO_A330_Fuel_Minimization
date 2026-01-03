@@ -21,7 +21,7 @@ else
 end
 
 
-AC.Aero.MaxIterIndex = 500;    %Maximum number of Iteration for the convergence of viscous calculation
+AC.Aero.MaxIterIndex = 200;    %Maximum number of Iteration for the convergence of viscous calculation
                                 
                                 
 % Flight Condition
@@ -34,11 +34,14 @@ AC.Aero.CL    = (9.81*W*Mission.n)  / (0.5 * Mission.rho * Mission.V^2 * AC_IN.W
 
 
 %% 
+
 cd 'Q3D'
-% AeroResults = Q3D_solver(AC);
+%AeroResults = Q3D_solver(AC);
 try 
     AeroResults = Q3D_solver(AC);
 catch error
+    fprintf('Error occurred: %s\n', error.message);
+    disp(AC)
     AeroResults = inf;
 end
 cd '..' 
