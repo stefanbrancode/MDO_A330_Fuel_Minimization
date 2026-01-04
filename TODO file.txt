@@ -1,8 +1,10 @@
 TODO file:
 
+
+
 chang structure:
 - from vis and invis to cruise and load
-- change from Res to Aero
+- change from Res to Aero? 
 
 Comment:
 - all write files
@@ -11,11 +13,21 @@ Rename function:
 - d_airfoil2 
 
 
-all of the Emwet folder redo& clean up
-
-
 
 load file: moment calculation not right
+check wing weight and load
 
-
+FIX:
 - Drag scaling
+- Tank Volume not calc/correct
+
+
+Preallocate:
+- error in MDA
+- Iteration Limits of Q3D
+
+
+Bounds: Adjust Spar position bounds
+
+
+Check Engine Weight

@@ -1,21 +1,30 @@
-function [W, counter] = MDA(x, error)
-% MDA coordinator (convergence loop) 
-% once the convergence is within the specified tolerance (optional)
+function AC = MDA(AC)
+%MDASTEFAN MDA convergence loop
+g = 9.81; 
 
-%Convergence loop
-if nargin < 2
-    error = 1e-6;
+MTOW_hat = AC.W.MTOW; %store old MTOW of aircraft
+error=1; % to replace the do while haha
+iteration = -1; %for monitoring purposes
+
+while (abs(error)) > 1e-6
+    iteration = iteration + 1;
+    fprintf("MDA Iteration: %d \n", iteration);
+    
+    % Q3D inviscid
+    AC.Res.invis = get_Q3D(AC, AC.Mission.MO, MTOW_hat, "inviscid"); %Calculate Lift and Moment distributions
+    
+    % EMWET
+    AC = get_EMWET(AC);
+    fprintf("Wing weight: %.0f kg\n", AC.W.Wing/g);
+    
+    % WEIGHT 
+    AC.W = get_Weight(AC.W);
+
+    % ERROR
+    error = (AC.W.MTOW - MTOW_hat) / MTOW_hat;
+   
+    % 
+    MTOW_hat = AC.W.MTOW;
 end
 
-%for initiation of loop condition:
-W.MTO = 0;
-W.MTOhat = Ref.W.MTO; 
-counter = 0;
-
-while abs( (W.MTO-W.MTOhat)/W.MTO ) > error
-    Aero = get_Aero(Geo, W.MTO, n=n_max, Mission, Solver); % Aerodynamic Loads
-    W.Wing = ; % Wing struture
-    W = get_Weight(x, W);
-    counter = counter +1;    
-end
 end

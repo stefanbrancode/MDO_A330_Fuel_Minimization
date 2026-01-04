@@ -22,7 +22,7 @@ elseif strcmpi(Solver,'inviscid')
 else 
     error('Wrong Aero Solver'); 
 end                            
-                                
+                     
 % Flight Condition
 AC.Aero.V     = Mission.V;            % flight speed (m/s)
 AC.Aero.rho   = Mission.rho;         % air density  (kg/m3)

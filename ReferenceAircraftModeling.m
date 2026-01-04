@@ -52,11 +52,11 @@ REF.Engine.dft = conv_unit("m", "ft", 3.10);      % [ft] diameter of Naccel   %%
 REF.Engine.CT = 0.565/60/60;      % [N/Ns] specific fuel consumption Source: https://web.archive.org/web/20190627155423/http://www.jet-engine.net/civtfspec.html
 
 % Fuel Tank
-REF.Fuel_Tank.eta = [0, 0.85];  % [-] 
+REF.Fuel_Tank.eta = [0, 0.8499];  % [-] 
 
 % Structure
 REF.Struct.spar_front = [NaN, 0.20, 0.20]; % [-]
-REF.Struct.spar_rear = [NaN, 0.80, 0.80];  % [-]
+REF.Struct.spar_rear = [NaN, 0.60, 0.60];  % [-]
 REF.Struct.Alu.E = conv_unit("N/mm^2", "N/m^2", 70.10e3);  % [N/m2]
 REF.Struct.Alu.rho = 2800;    % [kg/m^3]
 REF.Struct.Alu.Ft = conv_unit("N/mm^2", "N/m^2", 295);        % [N/m2] 
@@ -164,7 +164,7 @@ REF.Fuel_Tank.Available_fuel_mass = REF.Fuel_Tank.Volume * REF.Fuel_Tank.FuelDen
 fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
 
 %% MDA consistency check loop
-REF = MDAStefan(REF);
+REF = MDA(REF);
 
 %% Visualisation
 plot_AeroPerformance(REF, REF, Resolution);

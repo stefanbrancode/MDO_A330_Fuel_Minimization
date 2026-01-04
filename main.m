@@ -4,84 +4,119 @@
 % Author: Lukas Deuschle
 % Date: 2025-11-12
 
+% Clear everything
 clear; clc; close all;
 
-%% -------------------- Load Parameters ----------------
-% OK
+% Start logging the Command Window
+diary optimization_log.txt
+diary on
 
+dbstop if warning
+
+%% -------------------- Load Refrence Model ----------------
 % Load Refernce Aircraft
 load("A330-300.mat")
 
 % define new object to be modified
-MOD=REF;
+MOD = REF;
 MOD.Name = "A330-300_MOD"; %change the name
 MOD.Wing.Airfoil_Name = "A330_Airfoil_MOD"; %change the name
+   
+%% ========================================================================
+% Initial design vector (x0) and bounds based on REF aircraft
+% ========================================================================
+x0 = [
+    % Mission design point
+    REF.Mission.dp.M              % [-] Cruise Mach number
+    REF.Mission.dp.alt            % [m] Cruise altitude
 
-%% -------------------- Derived parameters & initialization ----------------
-% OK
+    % Weights
+    REF.W.fuel                    % [kg] Fuel weight 
 
-%bounds for optimizer
-lb = [ REF.Wing.c(1)*0.5, 10*pi/180 , 0 , 0, ...
-    0.9*REF.Mission.dp.M, ...
-    0.9*REF.Mission.dp.alt, ...
-    -5, -5, -5, -5, -5, ...
-    -5, -5, -5, -5, -5]; 
+    % Wing planform geometry
+    REF.Wing.span                 % [m] Wing span
+    REF.Wing.c(2)                 % [m] Kink chord
+    REF.Wing.sweepLE              % [rad] Leading edge sweep
+    REF.Wing.Taper(2)             % [-] Outer panel taper ratio
 
-ub = [ REF.Wing.c(1)*1.5 , 70*pi/180 , 1 , 2*(REF.Wing.y(3)-REF.Wing.y(2)), ... 
-    1.1*REF.Mission.dp.M, ...
-    1.1*REF.Mission.dp.alt, ...
-    5, 5, 5, 5, 5, ...
-    5, 5, 5, 5, 5]; 
+    % Fuel tank
+    REF.Fuel_Tank.eta(2)          % [-] Spanwise fuel tank extent
 
-%normalized bounds for optimizer hypercube
-lb_norm = lb / ub;
+    % Wing structure
+    REF.Struct.spar_front(3)      % [-] Front spar position (outer wing)
+    REF.Struct.spar_rear(3)       % [-] Rear spar position (outer wing)
+
+    % Airfoil CST coefficients
+    REF.Wing.Airfoil.CST_up(:)    % Upper surface CST coefficients
+    REF.Wing.Airfoil.CST_low(:)   % Lower surface CST coefficients
+];
+
+% lower bound for optimizer
+lb = [
+    % Mission design point
+    0.9 * REF.Mission.dp.M        % [-] Cruise Mach number
+    0.9 * REF.Mission.dp.alt      % [m] Cruise altitude
+
+    % Weights
+    0.8 * REF.W.fuel            % [kg] Fuel weight 
+
+    % Wing planform geometry
+    0.5 * REF.Wing.span         % [m] Wing span
+    0.5 * REF.Wing.c(2)             % [m] Kink chord
+    10 * pi/180                 % [rad] Leading edge sweep
+    0.1                         % [-] Outer panel taper ratio
+
+    % Fuel tank
+    0.5                         % [-] Spanwise fuel tank extent
+
+    % Wing structure
+    0.10                        % [-] Front spar position (outer wing)
+    0.50                        % [-] Rear spar position (outer wing)
+
+    % Airfoil CST coefficients
+    -5 * ones(numel(REF.Wing.Airfoil.CST_up),1)  % Upper surface CST coefficients
+    -5 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
+];
+
+% Upper bounds for optimizer
+ub = [
+    % Mission design point
+    REF.Mission.MO.M                 % [-] Cruise Mach number
+    1.1 * REF.Mission.dp.alt         % [m] Cruise altitude
+
+    % Weights
+    1 * REF.W.fuel            % [kg] Fuel weight
+
+    % Wing planform geometry
+    65                      % [m] Wing span
+    1.5 * REF.Wing.c(2)    % [m] Kink chord
+    70 * pi/180             % [rad] Leading edge sweep
+    1                     % [-] Outer panel taper ratio
+
+    % Fuel tank
+    0.85                        % [-] Spanwise fuel tank extent
+
+    % Wing structure
+    0.35                        % [-] Front spar position (outer wing)
+    0.75                        % [-] Rear spar position (outer wing)
+
+    % Airfoil CST coefficients
+    5 * ones(numel(REF.Wing.Airfoil.CST_up),1) % Upper surface CST coefficients
+    5 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
+];
+
+%normalized vektor and bounds for optimizer hypercube
+lb_norm = zeros(1, length(lb));
 ub_norm = ones(1, length(ub));
-
-%% SIMPLYFY OPTIMIZATION: REDUCE NUMBER OF VARIABLES
-
-fields_active = { ...
-    'root_chord', ...
-    'leadingEdgeSweep', ...
-    'TaperRatio_Tip_To_Kink', ...
-    'span_Tip_To_Kink', ...
-    %'Mach', ...
-    %'altitude' ...
-    % 'CST_up' and 'CST_low' are excluded
-};
-
-%x0 = [Ref.Wing.c(1) , Ref.Wing.sweepLE , Ref.Wing.c(3)/Ref.Wing.c(2) , Ref.Wing.y(3)-Ref.Wing.y(2), Ref.Mission.dp.M ,Ref.Mission.dp.alt ,Ref.Wing.Airfoil.CST_up , Ref.Wing.Airfoil.CST_low];
-x0 = get_Design_Vector(REF);
-x0_normalized = Normalize_Design_Vector(x0,lb,ub); 
-x_struct = Design_Vector_To_Struct(x0, fields_active);
-lb_struct = Design_Vector_To_Struct(lb,fields_active);
-ub_struct = Design_Vector_To_Struct(ub, fields_active);
-disp(x_struct);
-
-
-x0_active = zeros(1,length(fields_active));
-lb_active = zeros(1,length(fields_active));
-ub_active = zeros(1,length(fields_active));
-
-for i = 1:length(fields_active)
-    x0_active(i) = x_struct.(fields_active{i});
-    lb_active(i) = lb_struct.(fields_active{i});
-    ub_active(i) = ub_struct.(fields_active{i});
-end
-
-% Normalize active variables if needed
-x0_active_norm = Normalize_Design_Vector(x0_active, lb_active, ub_active);
-lb_active_norm = zeros(size(lb_active)); 
-ub_active_norm = ones(size(ub_active));
-
+x0_norm = Normalize_Design_Vector(x0,lb,ub); 
 
 %% Define solver settings 
-% OK
-
 % Optimization options
 options.Display         = 'iter-detailed';
+options.OutputFcn       = @save_Iterations; 
 options.Algorithm       = 'sqp';
 %options.FunValCheck     = 'off';
-options.MaxFunctionEvaluations= 100;
+options.MaxFunctionEvaluations = 100;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
@@ -91,36 +126,22 @@ options.MaxIter         = 5;          % Maximum iterations
 tic;
 % Optimization_Stefan takes as input the non-normalized bounds in order to
 % revert the normalization.
-[x, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_active_norm) Optimization_Stefan(MOD, x_active_norm , REF , lb_active , ub_active , fields_active ) , x0_active_norm , [] , [] , [] , [] , lb_active_norm , ub_active_norm , @(x_normalized) Constraints(x_normalized, MOD, REF ) , options);
+[x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(MOD, REF, x_norm, lb, ub), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(MOD, REF), options);
 tSolver = toc;
 
 %% Unpack solution
-solution = Denormalize_Design_Vector(x,lb_active,ub_active); 
-solution_struct = Design_Vector_To_Struct(x,fields_active);
-
-%delete
-dummy = solution*1.00001;
-dummy_struct = Design_Vector_To_Struct( dummy , fields_active );
-DUMMY_DESIGN= REF;
-Rnew = Optimization_Stefan(DUMMY_DESIGN, dummy , REF , lb_active , ub_active , fields_active)
-DUMMY_DESIGN= get_Geometry_new(DUMMY_DESIGN, dummy_struct);
-
-MOD = get_Geometry_new(MOD , solution_struct);
+x_opt = Denormalize_Design_Vector(x_opt_norm, lb_active,ub_active); 
 
 %% -------------------- Outputs and Visualization ------------------------------------
-% OK
-
 plot_AeroPerformance(REF, DUMMY_DESIGN, Resolution);
 plot_Airfoil(REF, DUMMY_DESIGN, Resolution);
 plot_WingPlanfrom(REF, DUMMY_DESIGN, Resolution);
 plot_Wing3D(REF, DUMMY_DESIGN, Resolution);
 
-xcompare=[REF.Performance.R, Denormalize_Design_Vector(x0_active_norm,lb_active,ub_active) ; MOD.Performance.R, Denormalize_Design_Vector(x,lb_active,ub_active)]
+% xcompare = [REF.Performance.R, Denormalize_Design_Vector(x0_active_norm,lb_active,ub_active) ; MOD.Performance.R, Denormalize_Design_Vector(x_opt_norm,lb_active,ub_active)]
 
 %% Save Optimized Aircraft File
-% OK
 save("A330-300_MOD.mat", "MOD");   % saves AC data  into a .mat file
 
-
-%% -------------------- Nested ODE function -------------------------------
-% Empty as located in different files
+% End the logging of the Command Window
+diary off
