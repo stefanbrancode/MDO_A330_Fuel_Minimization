@@ -16,12 +16,13 @@ function R = Optimization(AC, x_normalized, REF,lb,ub,fields_active)
 x = Denormalize_Design_Vector(x_normalized,lb,ub); 
 x_struct = Design_Vector_To_Struct(x,fields_active);
 
-AC = get_Geometry_new(AC,x_struct); %put design vector variables into the aircraft struct
-AC = MDAStefan(AC); %MDA consistency loop
+AC = get_Geo_simple(AC,x_struct); %put design vector variables into the aircraft struct
+AC = MDAStefan(AC,x_struct); %MDA consistency loop
 AC.Res.vis = get_Q3D(AC, AC.Mission.dp, AC.W.des, "viscous"); %viscous analysis to obtain Drag
 AC = Performance(AC, REF); % Breguet eqs 
 %Minimize -Range
-R = -AC.Performance.R 
+R = -AC.Performance.R;
+fprintf('Objective Function Value (R): %.4f\n', R);
 
 %% Volume calculation
 Wing_Volume = get_Wing_Volume(AC, 150, 300);
@@ -31,5 +32,6 @@ AC.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3
 AC.fueltankData.Available_fuel_mass = AC.fueltankData.Volume * AC.fueltankData.FuelDensity;
 
 disp('ITERATION FINISHED')
+save("A330-300_MOD.mat", "AC");
 %print_WingPlanfrom(REF,AC);
 end

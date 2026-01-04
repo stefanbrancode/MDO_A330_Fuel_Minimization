@@ -12,9 +12,17 @@ q = 0.5*AC.Mission.MO.rho*AC.Mission.MO.V^2; % dynamic pressure at MO
 % Yst= spanwise location of strips   
 Res=AC.Res.invis;
 
+if ~(length(Res.Wing.ccl) == length(Res.Wing.Yst) && length(Res.Wing.cm_c4) == length(Res.Wing.Yst))
+disp(Res.Wing.ccl/Res.Wing.cl)
+disp(Res.Wing.ccl);
+disp(Res.Wing.Yst);
+disp(Res.Wing.cm_c4);
+end
+
 Yst = Res.Wing.Yst;
 L_y = Res.Wing.ccl .* q; % compute lift at each strip
-M_y = Res.Wing.cm_c4 .* (Res.Wing.ccl ./ Res.Wing.cl) * q; % compute moment at each strip
+M_y = Res.Wing.cm_c4 .* (Res.Wing.ccl ./ Res.Wing.cl) *AC.Wing.MAC* q; % compute moment at each strip
+
 
 % 2. Normalize
 eta_strips = Yst / (AC.Wing.span/2);

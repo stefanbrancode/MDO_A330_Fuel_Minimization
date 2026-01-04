@@ -12,21 +12,21 @@ Ref=REF;
 %define new object to be modified
 MOD=REF;
 MOD.Name = "A330-300_MOD"; %change the name
-
+disp(REF.Wing.sweepLE)
 %% -------------------- Derived parameters & initialization ----------------
 
 %bounds for optimizer
-lb = [ Ref.Wing.c(1)*0.5, 0.01*pi/180 , 0 , 0, ...
+lb = [ Ref.Wing.c(1)*0.99, 0.99*REF.Wing.sweepLE , 0.99 * (Ref.Wing.c(3)/Ref.Wing.c(2))  , 0.99*(Ref.Wing.y(3)-Ref.Wing.y(2)), ...
     0.9*Ref.Mission.dp.M, ...
     0.9*Ref.Mission.dp.alt, ...
-    -5, -5, -5, -5, -5, ...
-    -5, -5, -5, -5, -5]; 
+    0.99*Ref.Wing.Airfoil.CST_up, ...
+    0.99* Ref.Wing.Airfoil.CST_low]; 
 
-ub = [ Ref.Wing.c(1)*1.5 , 70*pi/180 , 1 , 2*(Ref.Wing.y(3)-Ref.Wing.y(2)), ... 
+ub = [ Ref.Wing.c(1)*1.01 , 1.01*REF.Wing.sweepLE , 1.01 * (Ref.Wing.c(3)/Ref.Wing.c(2)) , 1.01*(Ref.Wing.y(3)-Ref.Wing.y(2)), ... 
     1.1*Ref.Mission.dp.M, ...
     1.1*Ref.Mission.dp.alt, ...
-    5, 5, 5, 5, 5, ...
-    5, 5, 5, 5, 5]; 
+    1.01*Ref.Wing.Airfoil.CST_up, ...
+    1.01*Ref.Wing.Airfoil.CST_low]; 
 %normalized bounds for optimizer hypercube
 lb_norm = zeros(1, length(lb));
 ub_norm = ones(1, length(ub));
@@ -38,8 +38,11 @@ fields_active = { ...
     'leadingEdgeSweep', ...
     'TaperRatio_Tip_To_Kink', ...
     'span_Tip_To_Kink', ...
-    %'Mach', ...
-    %'altitude' ...
+    'Mach', ...
+    'altitude', ...
+    'CST_up', ...
+    'CST_low' ...
+    
     % 'CST_up' and 'CST_low' are excluded
 };
 
@@ -51,16 +54,30 @@ lb_struct = Design_Vector_To_Struct(lb,fields_active);
 ub_struct = Design_Vector_To_Struct(ub, fields_active);
 disp(x_struct);
 
+% Initialize empty arrays
+x0_active = [];
+lb_active = [];
+ub_active = [];
 
-x0_active = zeros(1,length(fields_active));
-lb_active = zeros(1,length(fields_active));
-ub_active = zeros(1,length(fields_active));
-
+% Loop through fields and concatenate (append) values
 for i = 1:length(fields_active)
-    x0_active(i) = x_struct.(fields_active{i});
-    lb_active(i) = lb_struct.(fields_active{i});
-    ub_active(i) = ub_struct.(fields_active{i});
+    fieldName = fields_active{i};
+    
+    % Extract the value (which might be a scalar OR a vector like CST)
+    val_current = x_struct.(fieldName);
+    val_lb      = lb_struct.(fieldName);
+    val_ub      = ub_struct.(fieldName);
+    
+    % Append to the main vectors
+    % This handles both scalars and vectors (like CST) automatically
+    x0_active = [x0_active, val_current];
+    lb_active = [lb_active, val_lb];
+    ub_active = [ub_active, val_ub];
+    
+    % Optional: Debug print to see what is being added
+    fprintf('Added %s: size %d\n', fieldName, length(val_current));
 end
+
 
 % Normalize active variables if needed
 x0_active_norm = Normalize_Design_Vector(x0_active, lb_active, ub_active);
@@ -74,11 +91,11 @@ ub_active_norm = ones(size(ub_active));
 options.Display         = 'iter-detailed';
 options.Algorithm       = 'sqp';
 %options.FunValCheck     = 'off';
-options.MaxFunctionEvaluations= 100;
+options.MaxFunctionEvaluations= 10000;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
-options.MaxIter         = 5;          % Maximum iterations
+options.MaxIter         = 100;          % Maximum iterations
 
 
 
@@ -92,17 +109,9 @@ tSolver = toc;
 solution = Denormalize_Design_Vector(x,lb_active,ub_active); 
 solution_struct = Design_Vector_To_Struct(x,fields_active);
 
-%delete
-dummy = solution*1.00001;
-dummy_struct = Design_Vector_To_Struct( dummy , fields_active );
-DUMMY_DESIGN= REF;
-Rnew = Optimization_Stefan(DUMMY_DESIGN, dummy , Ref , lb_active , ub_active , fields_active)
-DUMMY_DESIGN= get_Geometry_new(DUMMY_DESIGN, dummy_struct);
-
-MOD = get_Geometry_new(MOD , solution_struct);
+MOD = get_Geo_simple(MOD , solution_struct);
 
 %% -------------------- Outputs and Visualization ------------------------------------
-print_WingPlanfrom(Ref, DUMMY_DESIGN);
 
 xcompare=[Ref.Performance.R, Denormalize_Design_Vector(x0_active_norm,lb_active,ub_active) ; MOD.Performance.R, Denormalize_Design_Vector(x,lb_active,ub_active)]
 

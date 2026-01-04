@@ -3,7 +3,7 @@ function [aircraft] = MDAStefan(aircraft , x_struct) %x_struct for monitoring
 error=1; % Initialize error > tol
 iteration =0; %for monitoring purposes
 max_iter=20;
-tol=1e-5;
+tol=1e-4;
 %1kg error is accepted
 
 while ( (error > tol) && (iteration < max_iter) )

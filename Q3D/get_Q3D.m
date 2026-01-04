@@ -21,7 +21,7 @@ else
 end
 
 
-AC.Aero.MaxIterIndex = 200;    %Maximum number of Iteration for the convergence of viscous calculation
+AC.Aero.MaxIterIndex = 100;    %Maximum number of Iteration for the convergence of viscous calculation
                                 
                                 
 % Flight Condition
@@ -31,7 +31,9 @@ AC.Aero.alt   = Mission.alt;             % flight altitude (m)
 AC.Aero.Re    = Mission.Re;        % reynolds number (bqased on mean aerodynamic chord)
 AC.Aero.M     = Mission.M;           % flight Mach number 
 AC.Aero.CL    = (9.81*W*Mission.n)  / (0.5 * Mission.rho * Mission.V^2 * AC_IN.Wing.Sref);          % lift coefficient - comment this line to run the code for given alpha% 
-
+if (AC.Aero.CL >2)
+disp("CL LARGER THAN 2!")
+end
 
 %% 
 
