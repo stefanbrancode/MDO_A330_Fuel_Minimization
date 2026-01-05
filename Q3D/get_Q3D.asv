@@ -21,7 +21,7 @@ else
 end
 
 
-AC.Aero.MaxIterIndex = 250;    %Maximum number of Iteration for the convergence of viscous calculation
+AC.Aero.MaxIterIndex = 100;    %Maximum number of Iteration for the convergence of viscous calculation
                                 
                                 
 % Flight Condition
@@ -41,25 +41,19 @@ cd 'Q3D'
 %AeroResults = Q3D_solver(AC);
 
 try 
-   
-    lastwarn('');        % Clear last warning
+    AeroResults=[];
+
+    AeroResults = Q3D_solver(AC);
     
-    AeroResults = Q3D_solver(AC); %run Q3D
+    if isempty(AeroResults) || isnan(AeroResults.CDwing)
 
-    [msg, id] = lastwarn;
-
-    if strcmpi(Solver,'viscous') 
-
-    if ~isempty(msg)
-    error('Q3D solver Produced warning'); %Send error to trigger catch
-    end
+    error
 
     end
-catch 
-    fprintf('Q3D Diverged/Crashed. Apply CD penalty to make range small: \n');
-     
-    AeroResults.CDwing = 10;
-    
+catch error
+    fprintf('Error occurred: %s\n', error.message);
+    disp(AC)
+    AeroResults = inf;
 end
 
 

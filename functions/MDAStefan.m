@@ -9,7 +9,7 @@ tol=1e-5;
 while ( (error > tol) && (iteration < max_iter) )
 
 iteration =iteration +1;
-fprintf('\n--- Iteration %d ---\n', iteration);
+fprintf('\n--- MDA Iteration %d ---\n', iteration);
 
 %give guess for MTOW as the last computed value for MTOW
  

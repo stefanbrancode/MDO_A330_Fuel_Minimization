@@ -32,12 +32,8 @@ AC = Performance(AC, REF); % Breguet eqs
 %Minimize -Range
 R = -AC.Performance.R;
 
-if isnan(R)
-R=1e6;
-end
-
 if isnan(AC.Res.vis.CLwing)
-R=1e6;
+R=1000000;
 end
 fprintf('Objective Function Value (R): %.4f\n', R);
 
@@ -48,7 +44,7 @@ AC.fueltankData.Volume = 0.93 * Wing_Volume;
 AC.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3  
 AC.fueltankData.Available_fuel_mass = AC.fueltankData.Volume * AC.fueltankData.FuelDensity;
 
-disp('\n--- FUNCTION EVAL FINISHED ---\n')
+disp('\n---  ---\n')
 save("A330-300_MOD.mat", "AC");
 %print_WingPlanfrom(REF,AC);
 
