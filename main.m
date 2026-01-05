@@ -107,9 +107,7 @@ options.MaxFunctionEvaluations= 10000;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
-options.MaxIter         = 5;          % Maximum iterations
-
-
+options.MaxIter         = 20;          % Maximum iterations
 
 %% -------------------- Optimization --------------------------
 tic;

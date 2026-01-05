@@ -43,10 +43,19 @@ fprintf('Objective Function Value (R): %.4f\n', R);
 
 %% Volume calculation
 
-Wing_Volume = get_Wing_Volume(AC, 150, 300);
-AC.fueltankData.Volume = 0.93 * Wing_Volume;
-AC.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3  
+AC.fueltankData.Volume = 0.93 * get_Wing_Volume(AC, 150, 300);
+
+AC.fueltankData.FuelDensity = 0.81715*1e3; % kg/m^3
 AC.fueltankData.Available_fuel_mass = AC.fueltankData.Volume * AC.fueltankData.FuelDensity;
+
+fuelVolume = AC.W.fuel / AC.fueltankData.FuelDensity;
+
+
+if fuelVolume> AC.fueltankData.Volume
+
+disp("WEIRD DESIGN")
+
+end
 
 disp('\n--- FUNCTION EVAL FINISHED ---\n')
 save("A330-300_MOD.mat", "AC");
