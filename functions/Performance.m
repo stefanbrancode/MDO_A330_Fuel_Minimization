@@ -13,13 +13,29 @@ fprintf('CD wing: %.6f\n', AC.Res.vis.CDwing);
 AC.Mission.CD = AC.Mission.CD_woWing + AC.Res.vis.CDwing; % Get CD for whole plane. Contribution from wingless part(unchanging) + wing ( result from Q3D viscous)
   
 fprintf('CD aircraft: %.6f\n', AC.Mission.CD);
+% Check if viscous results is a defined variable
+if exist('AC', 'var') && isfield(AC, 'Res') && isfield(AC.Res, 'vis') 
+    
+    %if it's empty, the Q3D solved produced bad results, make Range =0
+    if isempty(AC.Res.vis)
 
-AC.L_over_D_aircraft= AC.Res.vis.CLwing / AC.Mission.CD; % update L/D
+        AC.Performance.R=0;
 
-AC.Performance.eta = exp( -((AC.Mission.dp.V - REF.Mission.dp.V).^2 / (2 * 70^2)) - ((AC.Mission.dp.alt - REF.Mission.dp.alt).^2 / (2 * 2500^2)) );
+    else %if results were returned, assume the results are good and perform Range calculation
 
-AC.Performance.CT = AC.Performance.CTbar / AC.Performance.eta;
+        AC.L_over_D_aircraft= AC.Res.vis.CLwing / AC.Mission.CD; % update L/D
 
-AC.Performance.R = (AC.Mission.dp.V / AC.Performance.CT ) * (AC.L_over_D_aircraft) * log(AC.W.MTOW/AC.W.ZFW);
+        AC.Performance.eta = exp( -((AC.Mission.dp.V - REF.Mission.dp.V).^2 / (2 * 70^2)) - ((AC.Mission.dp.alt - REF.Mission.dp.alt).^2 / (2 * 2500^2)) );
+
+        AC.Performance.CT = AC.Performance.CTbar / AC.Performance.eta;
+
+        AC.Performance.R = (AC.Mission.dp.V / AC.Performance.CT ) * (AC.L_over_D_aircraft) * log(AC.W.MTOW/AC.W.ZFW);
+    
+    end
+
+else %If the field does not exist i.e. Q3D was not able to run (due to bad input)
+
+AC.Performance.R=0;
+end
 
 end

@@ -33,12 +33,9 @@ AC = Performance(AC, REF); % Breguet eqs
 R = -AC.Performance.R;
 
 if isnan(R)
-R=1e6;
+R=0;
 end
 
-if isnan(AC.Res.vis.CLwing)
-R=1e6;
-end
 fprintf('Objective Function Value (R): %.4f\n', R);
 
 %% Volume calculation
@@ -54,6 +51,8 @@ fuelVolume = AC.W.fuel / AC.fueltankData.FuelDensity;
 if fuelVolume> AC.fueltankData.Volume
 
 disp("WEIRD DESIGN")
+
+R=0;
 
 end
 

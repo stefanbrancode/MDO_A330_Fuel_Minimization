@@ -32,7 +32,7 @@ lb = [ Ref.Wing.c(1)*0.8, 0.8*REF.Wing.sweepLE , 0.8 * (Ref.Wing.c(3)/Ref.Wing.c
 %is smaller that 65 m % 65/2 - Ref.Wing.y(2)
 %bound on LE sweep <35-40 deg: penalty due to torsion outweighs the sweep buff
 %bound on taper 0.5 => Tip wide=> large bending moment
-ub = [ Ref.Wing.c(1)*1.2 , 1.2*REF.Wing.sweepLE , 1.2 * (Ref.Wing.c(3)/Ref.Wing.c(2)) , 1.2*(Ref.Wing.y(3)-Ref.Wing.y(2)), ... 
+ub = [ Ref.Wing.c(1)*1.2 , 1.1*REF.Wing.sweepLE , 1.2 * (Ref.Wing.c(3)/Ref.Wing.c(2)) , 1.2*(Ref.Wing.y(3)-Ref.Wing.y(2)), ... 
     1.1*Ref.Mission.dp.M, ...
     1.1*Ref.Mission.dp.alt, ...
     1.2*Ref.Wing.Airfoil.CST_up, ...
@@ -108,7 +108,7 @@ options.TolCon          = 1e-6;         % Maximum difference between two subsequ
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
 options.MaxIter         = 20;          % Maximum iterations
-
+    
 %% -------------------- Optimization --------------------------
 tic;
 %Optimization_Stefan takes as input the non-normalized bounds in order to
