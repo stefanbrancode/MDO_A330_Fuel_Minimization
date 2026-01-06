@@ -19,6 +19,7 @@ Resolution = 300;
 
 % Gravity Acceleration 
 g = 9.81; % [m/s^2]
+REF.Sim.EMWET_show = 1;
 
 %% Aircraft Inputs
 REF.Name = "A330-300";
@@ -26,10 +27,12 @@ REF.Name = "A330-300";
 % Wing planform geometry 
 REF.Wing.dihedral = 4.72*pi/180;
 REF.Wing.sweepLE = 32 * pi/180;
-REF.Wing.sweepTE = [5, 20.56] * pi/180;
+REF.Wing.sweepTE = [5, 20.2368] * pi/180;
 REF.Wing.span = 60.3;
 REF.Wing.c = [12.0781, 7.69313, 2.2];
+REF.Wing.x = [21.06, NaN, NaN];
 REF.Wing.y = [0, 8.15989, REF.Wing.span/2];
+REF.Wing.z = [0.65, NaN, NaN];
 REF.Wing.twist = [0, -4.5, -9]; % [deg] 
 
 % Wing incidence angle (degree)
@@ -46,7 +49,7 @@ REF.Engine.y = 18.74/2;         % [m] Source: Airbus A330 APM
 REF.Engine.l = 5.639;           % [m] Source: Wikipedia
 REF.Engine.d = 2.47;            % [m] Source: Wikipedia
 REF.Engine.num = 2; 
-REF.Engine.Wdry = 6160;           % [kg] Dry engine weight, not including fluids and nacelle EBU
+REF.Engine.m_dry = 6160;           % [kg] Dry engine weight, not including fluids and nacelle EBU
 REF.Engine.lft = conv_unit("m", "ft", 7.00);      % [ft] Length of Naccel     %% TODO: confirm data -----------------
 REF.Engine.dft = conv_unit("m", "ft", 3.10);      % [ft] diameter of Naccel   %% TODO: confirm data -----------------
 REF.Engine.CT = 0.565/60/60;      % [N/Ns] specific fuel consumption Source: https://web.archive.org/web/20190627155423/http://www.jet-engine.net/civtfspec.html
@@ -103,26 +106,23 @@ REF = get_Geometry(REF);
 % Engines
 REF.Engine.eta = 2 .* REF.Engine.y/REF.Wing.span;
 REF.Engine.S_Naccelft = pi * REF.Engine.dft * REF.Engine.lft;      % [ft^2] wetted area of Naccel %% TODO: confirm calc -----------------
-[~, W_pylongroup] = get_Raymer_Installed_Engine( ...
-        REF.Engine.Wdry, 1.18, 1.017, 1.0, ...
+[REF.Engine.m_ec, REF.Engine.m_pylongroup] = get_Raymer_Installed_Engine( ...
+        REF.Engine.m_dry, 1.18, 1.017, 1.0, ...
         REF.Engine.lft, REF.Engine.dft, REF.Mission.MO.n, REF.Engine.num, REF.Engine.S_Naccelft);
-REF.Engine.Winstalled = W_pylongroup / REF.Engine.num;
+REF.Engine.m_installed = REF.Engine.m_pylongroup;
 
 % normal Flight Condition
 [~, ~, REF.Mission.dp.rho, REF.Mission.dp.a, REF.Mission.dp.mu] = get_ISA(REF.Mission.dp.alt);
 REF.Mission.dp.M = REF.Mission.dp.V / REF.Mission.dp.a; % flight Mach number
-REF.Mission.dp.Re = REF.Mission.dp.rho * REF.Mission.dp.V * REF.Wing.MAC / REF.Mission.dp.mu; % reynolds number (bqased on mean aerodynamic chord)
+REF.Mission.dp          = get_Mission(REF.Mission.dp, REF.Wing.MAC); 
 
 % extrem load Flight Condition
-REF.Mission.MO          = get_Misssion(REF.Mission.MO, REF.Wing.MAC); 
+REF.Mission.MO          = get_Mission(REF.Mission.MO, REF.Wing.MAC); 
 
 % Weights
 REF.W.fuel = REF.W.MTOW - REF.W.OEW - REF.W.des_pay;        % fuel weight for max range at design payload 
 REF.W.ZFW = REF.W.MTOW - REF.W.fuel;                        % Zero-fuel weight	
 REF.W.des = sqrt(REF.W.MTOW * (REF.W.MTOW-REF.W.fuel));     % Design load
-
-%% Calculate Geometrics
-REF = get_Geometry(REF);
 
 %% Aerodynamic Solver
 tic
@@ -151,8 +151,8 @@ REF.W = get_Weight(REF.W);
 %% Lift-to-Drag and Drag 
 REF = get_Drag(REF); 
 fprintf("Lift to Drag Ratio: %.2f \n", REF.Performance.L_D);
-fprintf("Drag coeficient: %f2 \n",  REF.Performance.CD);
-fprintf("Drag coeficient without wing: %f2 \n", REF.Performance.CD_woWing);
+fprintf("Drag coeficient: %f \n",  REF.Performance.CD);
+fprintf("Drag coeficient without wing: %f \n", REF.Performance.CD_woWing);
 
 %% Fuel Tank Volume Calculation
 Wing_Volume = get_Wing_Volume(REF, 150, 300);
@@ -164,13 +164,14 @@ REF.Fuel_Tank.Available_fuel_mass = REF.Fuel_Tank.Volume * REF.Fuel_Tank.FuelDen
 fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
 
 %% MDA consistency check loop
+REF.Sim.EMWET_show = 0;
 REF = MDA(REF);
 
 %% Visualisation
-plot_AeroPerformance(REF, REF, Resolution);
-plot_Airfoil(REF, REF, Resolution);
-plot_WingPlanfrom(REF, REF, Resolution);
-plot_Wing3D(REF, REF, Resolution);
+% plot_AeroPerformance(REF, REF, Resolution);
+% plot_Airfoil(REF, REF, Resolution);
+% plot_WingPlanfrom(REF, REF, Resolution);
+% plot_Wing3D(REF, REF, Resolution);
 
 %% Safe Reference Aircraft File
 save("A330-300.mat", "REF");   % saves AC data  into a .mat file

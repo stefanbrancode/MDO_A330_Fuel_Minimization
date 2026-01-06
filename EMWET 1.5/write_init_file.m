@@ -10,7 +10,7 @@ if fid < 0
     error("Could not open file: %s", filename);
 end
 
-fprintf(fid, '%g %g \n', AC.W.MTOW, AC.W.MZFW);
+fprintf(fid, '%g %g \n', AC.W.MTOW/9.81, AC.W.MZFW/9.81);
 fprintf(fid, '%g \n', AC.Mission.MO.n);
 
 fprintf(fid, '%g %g %g %g \n', AC.Wing.Sref, AC.Wing.span , 3, 2);
@@ -24,7 +24,7 @@ fprintf(fid, '%g %g %g %g %g %g \n', AC.Wing.c(3), AC.Wing.x(3), AC.Wing.y(3), A
 fprintf(fid, '%g %g \n', AC.Fuel_Tank.eta(1), AC.Fuel_Tank.eta(2));
 
 fprintf(fid, '%g \n', AC.Engine.num/2);
-fprintf(fid, '%g  %g \n', AC.Engine.eta, AC.Engine.Winstalled);
+fprintf(fid, '%g  %g \n', AC.Engine.eta, AC.Engine.m_installed);
 
 fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu.Ft, AC.Struct.Alu.Fc);
 fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu.Ft, AC.Struct.Alu.Fc);
@@ -32,7 +32,7 @@ fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu
 fprintf(fid, '%g %g %g %g \n', AC.Struct.Alu.E, AC.Struct.Alu.rho, AC.Struct.Alu.Ft, AC.Struct.Alu.Fc);
 
 fprintf(fid,'%g %g \n',AC.Struct.eff_factor,AC.Struct.pitch_rib);
-fprintf(fid,'0 \n');
+fprintf(fid,'%g \n', AC.Sim.EMWET_show );
 fclose(fid);
 
 end

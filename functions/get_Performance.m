@@ -16,8 +16,8 @@ function MOD = get_Performance(MOD, REF)
 % Total CD consists of:
 %   - Wingless aircraft drag (assumed unchanged)
 %   - Wing drag from Q3D viscous analysis
-MOD.Performance.CD = ...
-    MOD.Performance.CD_woWing + MOD.Res.vis.CDwing;
+MOD.Performance.CD_woWing_MOD = REF.Performance.CD_woWing * REF.Mission.dp.q / MOD.Mission.dp.q * REF.Wing.Sref / MOD.Wing.Sref ; 
+MOD.Performance.CD = MOD.Performance.CD_woWing_MOD + MOD.Res.vis.CDwing;
 
 %% ------------------------------------------------------------------------
 % Lift-to-drag ratio
@@ -43,7 +43,7 @@ MOD.Performance.eta_eng = exp( ...
 % Correct engine thrust-specific fuel consumption
 % -------------------------------------------------------------------------
 % Lower efficiency -> higher effective CT
-MOD.Engine.CT = MOD.Engine.CT / MOD.Performance.eta_eng;
+MOD.Engine.CT = REF.Engine.CT / MOD.Performance.eta_eng;
 
 %% ------------------------------------------------------------------------
 % Breguet-type range calculation
@@ -53,6 +53,6 @@ MOD.Engine.CT = MOD.Engine.CT / MOD.Performance.eta_eng;
 MOD.Performance.R = ...
     (MOD.Mission.dp.V / MOD.Engine.CT) * ...
     MOD.Performance.L_D * ...
-    log(MOD.W.cruisefrac);
+    log(1 / MOD.W.cruisefrac);
 
 end

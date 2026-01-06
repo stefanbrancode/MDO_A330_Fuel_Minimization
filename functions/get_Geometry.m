@@ -7,7 +7,7 @@ LE = AC.Wing.sweepLE;
 TE = AC.Wing.sweepTE;
 
 %% Calulate Values
-AC.Wing.x = tan(LE)*y; 
+AC.Wing.x = tan(LE)*y + AC.Wing.x(1); 
 
 AC.Wing.c = [c(2) + y(2)*(tan(LE)-tan(TE(1))), ...
     c(2) ,...

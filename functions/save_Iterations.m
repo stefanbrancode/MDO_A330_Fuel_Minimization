@@ -1,0 +1,13 @@
+function stop = save_Iterations(x, optimValues, state)
+    stop = false;
+
+    if strcmp(state,'iter')
+        fid = fopen('iterations_log.txt','a');
+        fprintf(fid, ...
+            'Iter %d | fval = %.6e | step = %.3e\n', ...
+            optimValues.iteration, ...
+            optimValues.fval, ...
+            optimValues.stepsize);
+        fclose(fid);
+    end
+end

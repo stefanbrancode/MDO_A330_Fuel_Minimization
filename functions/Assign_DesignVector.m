@@ -19,8 +19,8 @@ AC.Wing.Taper(2) = x(7);
 AC.Fuel_Tank.eta(2) = x(8); % [-] 
 
 % Structure
-AC.Struct.spar_front(2:3) = [x(9), x(10)]; % [-]  
-AC.Struct.spar_rear(2:3) = [x(9), x(10)];  % [-] 
+AC.Struct.spar_front(2:3) = [x(9), x(9)]; % [-]  
+AC.Struct.spar_rear(2:3) = [x(10), x(10)];  % [-] 
  
 % Airfoil coefficients input matrix
 AC.Wing.Airfoil.CST_up  = [x(11)   x(12)    x(13)    x(14)    x(15)];

@@ -29,7 +29,7 @@ AC.Aero.rho   = Mission.rho;         % air density  (kg/m3)
 AC.Aero.alt   = Mission.alt;             % flight altitude (m)
 AC.Aero.Re    = Mission.Re;        % reynolds number (bqased on mean aerodynamic chord)
 AC.Aero.M     = Mission.M;           % flight Mach number 
-AC.Aero.CL    = (W*Mission.n)  / (0.5 * Mission.rho * Mission.V^2 * AC.Wing.Sref);          % lift coefficient - comment this line to run the code for given alpha% 
+AC.Aero.CL    = (W*Mission.n)  / (Mission.q * AC.Wing.Sref);          % lift coefficient - comment this line to run the code for given alpha% 
 
 % Run Aerodynamic Solver
 cd 'Q3D'
@@ -37,8 +37,12 @@ try
     AeroResults = Q3D_solver(AC);
 catch error
     fprintf('Error occurred: %s\n', error.message);
-    disp(AC)
-    AeroResults = inf;
+    AeroResults.CLwing = AC.Aero.CL;
+    AeroResults.CDwing = 5;
+end
+if (AC.Visc  == 1) && ~(AeroResults.CDwing <= 5) 
+    AeroResults.CLwing = AC.Aero.CL;
+    AeroResults.CDwing = 5;
 end
 cd '..' 
 end

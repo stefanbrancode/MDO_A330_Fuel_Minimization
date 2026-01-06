@@ -11,7 +11,7 @@ clear; clc; close all;
 diary optimization_log.txt
 diary on
 
-dbstop if warning
+% dbstop if warning
 
 %% -------------------- Load Refrence Model ----------------
 % Load Refernce Aircraft
@@ -21,6 +21,7 @@ load("A330-300.mat")
 MOD = REF;
 MOD.Name = "A330-300_MOD"; %change the name
 MOD.Wing.Airfoil_Name = "A330_Airfoil_MOD"; %change the name
+MOD.Sim.EMWET_show = 0;
    
 %% ========================================================================
 % Initial design vector (x0) and bounds based on REF aircraft
@@ -110,17 +111,28 @@ lb_norm = zeros(1, length(lb));
 ub_norm = ones(1, length(ub));
 x0_norm = Normalize_Design_Vector(x0,lb,ub); 
 
+%% Test and Check Section
+check_DesignVectorBounds(x0, lb, ub)
+
+% MOD.Sim.EMWET_show = 1;
+% get_EMWET(MOD)
+% MOD = MDA(MOD);
+% R = Optimization(MOD, REF, x0_norm, lb, ub)
+
 %% Define solver settings 
 % Optimization options
 options.Display         = 'iter-detailed';
 options.OutputFcn       = @save_Iterations; 
 options.Algorithm       = 'sqp';
-%options.FunValCheck     = 'off';
-options.MaxFunctionEvaluations = 100;
+% options.UseParallel     = true;
+options.FunValCheck     = 'off';
+% options.MaxFunctionEvaluations = 100;
+options.DiffMinChange   = 1e-2;
+options.DiffMaxChange   = 0.1;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
-options.MaxIter         = 5;          % Maximum iterations
+% options.MaxIter         = 100;          % Maximum iterations
 
 %% -------------------- Optimization --------------------------
 tic;
