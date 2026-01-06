@@ -14,10 +14,14 @@ AC.Mission.CD = AC.Mission.CD_woWing + AC.Res.vis.CDwing; % Get CD for whole pla
   
 fprintf('CD aircraft: %.6f\n', AC.Mission.CD);
 % Check if viscous results is a defined variable
+
+if isnan(AC.W.Wing)
+
+
 if exist('AC', 'var') && isfield(AC, 'Res') && isfield(AC.Res, 'vis') 
     
     %if it's empty, the Q3D solved produced bad results, make Range =0
-    if ~isempty(AC.Res.vis)
+    if isempty(AC.Res.vis)
 
         AC.Performance.R=0;
 
@@ -33,11 +37,11 @@ if exist('AC', 'var') && isfield(AC, 'Res') && isfield(AC.Res, 'vis')
     
     end
 
+else %If the field does not exist i.e. Q3D was not able to run (due to bad input)
 
-
-else
-
-
-
+AC.Performance.R=0;
 end
+
+
+
 end

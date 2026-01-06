@@ -17,14 +17,13 @@ Ref=REF;
 %define new object to be modified
 MOD=REF;
 MOD.Name = "A330-300_MOD"; %change the name
-
 %% -------------------- Derived parameters & initialization ----------------
 
 %bound on LE sweep: LE sweep> TE sweep => wing becomes thinner
 %bound on taper 0.2 => Tip too pointy => decrease in local Reynolds =>Tip stall
 %bound on semi span 52/2 m to fit in Code E Gate
 %bounds for optimizer
-lb = [ Ref.Wing.c(1)*0.9, 0.85*REF.Wing.sweepLE , 0.8 * (Ref.Wing.c(3)/Ref.Wing.c(2))  , 52/2 - Ref.Wing.y(2), ...
+lb = [ Ref.Wing.c(1)*0.9, 0.9*REF.Wing.sweepLE , 0.8 * (Ref.Wing.c(3)/Ref.Wing.c(2))  , 52/2, ...
     0.9*Ref.Mission.dp.M, ...
     0.9*Ref.Mission.dp.alt, ...
     0.8*Ref.Wing.Airfoil.CST_up, ...
@@ -38,8 +37,7 @@ ub = [ Ref.Wing.c(1)*1.1 , 1.1*REF.Wing.sweepLE , 1.2 * (Ref.Wing.c(3)/Ref.Wing.
     1.1*Ref.Mission.dp.M, ...
     1.1*Ref.Mission.dp.alt, ...
     1.2*Ref.Wing.Airfoil.CST_up, ...
-    1.2*Ref.Wing.Airfoil.CST_low];
-
+    1.2*Ref.Wing.Airfoil.CST_low]; 
 %normalized bounds for optimizer hypercube
 lb_norm = zeros(1, length(lb));
 ub_norm = ones(1, length(ub));
@@ -66,9 +64,6 @@ x_struct = Design_Vector_To_Struct(x0, fields_active);
 lb_struct = Design_Vector_To_Struct(lb,fields_active);
 ub_struct = Design_Vector_To_Struct(ub, fields_active);
 disp(x_struct);
-
-check =[lb;x0;ub]
-disp([lb;x0;ub])
 
 % Initialize empty arrays
 x0_active = [];
