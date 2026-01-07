@@ -12,8 +12,16 @@ diary optimization_log.txt
 diary on
 
 % dbstop if warning
+dbclear if warning
 
 %% -------------------- Load Refrence Model ----------------
+% Initialize Folders 
+folders = ["functions", "Q3d", "EMWET 1.5"];
+for i = 1:length(folders)
+    addpath(genpath(folders{i}));
+    disp(['Folder added: ', folders{i}]);
+end
+
 % Load Refernce Aircraft
 load("A330-300.mat")
 
@@ -22,7 +30,16 @@ MOD = REF;
 MOD.Name = "A330-300_MOD"; %change the name
 MOD.Wing.Airfoil_Name = "A330_Airfoil_MOD"; %change the name
 MOD.Sim.EMWET_show = 0;
-   
+
+% Resolution of the graphics
+MOD.Sim.Graphics.Resolution = 300;  
+
+% 
+MOD.Sim.MDA_TOL = 1e-4;
+MOD.Sim.MDA_MAXIter = 50;
+
+MOD.Sim.Q3D_MAXIter = 150;
+
 %% ========================================================================
 % Initial design vector (x0) and bounds based on REF aircraft
 % ========================================================================
@@ -63,7 +80,7 @@ lb = [
 
     % Wing planform geometry
     0.5 * REF.Wing.span         % [m] Wing span
-    0.5 * REF.Wing.c(2)             % [m] Kink chord
+    0.5 * REF.Wing.c(2)         % [m] Kink chord
     10 * pi/180                 % [rad] Leading edge sweep
     0.1                         % [-] Outer panel taper ratio
 
@@ -71,12 +88,12 @@ lb = [
     0.5                         % [-] Spanwise fuel tank extent
 
     % Wing structure
-    0.10                        % [-] Front spar position (outer wing)
-    0.50                        % [-] Rear spar position (outer wing)
+    0.15                        % [-] Front spar position (outer wing)
+    0.55                        % [-] Rear spar position (outer wing)
 
     % Airfoil CST coefficients
-    -5 * ones(numel(REF.Wing.Airfoil.CST_up),1)  % Upper surface CST coefficients
-    -5 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
+    -1 * ones(numel(REF.Wing.Airfoil.CST_up),1)  % Upper surface CST coefficients
+    -1 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
 ];
 
 % Upper bounds for optimizer
@@ -98,12 +115,12 @@ ub = [
     0.85                        % [-] Spanwise fuel tank extent
 
     % Wing structure
-    0.35                        % [-] Front spar position (outer wing)
+    0.20                        % [-] Front spar position (outer wing)
     0.75                        % [-] Rear spar position (outer wing)
 
     % Airfoil CST coefficients
-    5 * ones(numel(REF.Wing.Airfoil.CST_up),1) % Upper surface CST coefficients
-    5 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
+    1 * ones(numel(REF.Wing.Airfoil.CST_up),1) % Upper surface CST coefficients
+    1 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
 ];
 
 %normalized vektor and bounds for optimizer hypercube
@@ -122,13 +139,13 @@ check_DesignVectorBounds(x0, lb, ub)
 %% Define solver settings 
 % Optimization options
 options.Display         = 'iter-detailed';
-options.OutputFcn       = @save_Iterations; 
+options.OutputFcn       = @(x,optimValues,state) save_Iterations(x, lb, ub, optimValues, state);
 options.Algorithm       = 'sqp';
 % options.UseParallel     = true;
 options.FunValCheck     = 'off';
-% options.MaxFunctionEvaluations = 100;
+options.MaxFunctionEvaluations = 100;
 options.DiffMinChange   = 1e-2;
-options.DiffMaxChange   = 0.1;
+options.DiffMaxChange   = 0.05;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
@@ -145,10 +162,10 @@ tSolver = toc;
 x_opt = Denormalize_Design_Vector(x_opt_norm, lb_active,ub_active); 
 
 %% -------------------- Outputs and Visualization ------------------------------------
-plot_AeroPerformance(REF, DUMMY_DESIGN, Resolution);
-plot_Airfoil(REF, DUMMY_DESIGN, Resolution);
-plot_WingPlanfrom(REF, DUMMY_DESIGN, Resolution);
-plot_Wing3D(REF, DUMMY_DESIGN, Resolution);
+% plot_AeroPerformance(REF, DUMMY_DESIGN, Resolution);
+% plot_Airfoil(REF, DUMMY_DESIGN, Resolution);
+% plot_WingPlanfrom(REF, DUMMY_DESIGN, Resolution);
+% plot_Wing3D(REF, DUMMY_DESIGN, Resolution);
 
 % xcompare = [REF.Performance.R, Denormalize_Design_Vector(x0_active_norm,lb_active,ub_active) ; MOD.Performance.R, Denormalize_Design_Vector(x_opt_norm,lb_active,ub_active)]
 

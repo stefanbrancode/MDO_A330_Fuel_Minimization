@@ -1,6 +1,6 @@
 function AeroResults = get_Q3D(AC, Mission, W, Solver)
 % SetUp Simulation 
-AC.Aero.MaxIterIndex = 500;    %Maximum number of Iteration for the convergence of viscous calculation
+AC.Aero.MaxIterIndex = AC.Sim.Q3D_MAXIter;    %Maximum number of Iteration for the convergence of viscous calculation
 
 % Wing planform geometry 
 %                x    y     z   chord(m)    twist angle (deg) 

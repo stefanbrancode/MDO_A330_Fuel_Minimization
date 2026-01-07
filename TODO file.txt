@@ -18,9 +18,9 @@ load file: moment calculation not right
 check wing weight and load
 
 FIX:
-- Drag scaling
 - Tank Volume not calc/correct
 
+Problem: original does fit considerably more fuel into the wing tanks then Model, reasons inboard airfoil is reasonably thicker 
 
 MDA same check function
 
@@ -33,4 +33,4 @@ Preallocate:
 Bounds: Adjust Spar position bounds
 
 
-Check Engine Weight
+% Weigth Limits e.g. MTOW for Landing gear Redesign?

@@ -4,9 +4,6 @@ close all
 clc
 
 %% Initialize 
-% Initialize Aircraft File
-% REF = load_AC('A330-300.mat');
-
 % Initialize Folders 
 folders = ["functions", "Q3d", "EMWET 1.5"];
 for i = 1:length(folders)
@@ -15,11 +12,18 @@ for i = 1:length(folders)
 end
 
 % Resolution of the graphics
-Resolution = 300;  
+REF.Sim.Graphics.Resolution = 300;  
 
 % Gravity Acceleration 
 g = 9.81; % [m/s^2]
+
 REF.Sim.EMWET_show = 1;
+
+% 
+REF.Sim.MDA_TOL = 1e-4;
+REF.Sim.MDA_MAXIter = 50;
+
+REF.Sim.Q3D_MAXIter = 150;
 
 %% Aircraft Inputs
 REF.Name = "A330-300";
@@ -30,7 +34,7 @@ REF.Wing.sweepLE = 32 * pi/180;
 REF.Wing.sweepTE = [5, 20.2368] * pi/180;
 REF.Wing.span = 60.3;
 REF.Wing.c = [12.0781, 7.69313, 2.2];
-REF.Wing.x = [21.06, NaN, NaN];
+REF.Wing.x = [0, NaN, NaN];
 REF.Wing.y = [0, 8.15989, REF.Wing.span/2];
 REF.Wing.z = [0.65, NaN, NaN];
 REF.Wing.twist = [0, -4.5, -9]; % [deg] 
@@ -56,10 +60,12 @@ REF.Engine.CT = 0.565/60/60;      % [N/Ns] specific fuel consumption Source: htt
 
 % Fuel Tank
 REF.Fuel_Tank.eta = [0, 0.8499];  % [-] 
+REF.Fuel_Tank.FuelDensity = 0.81715*1e3; % kg/m^3 
+REF.Fuel_Tank.K = 0.93; % Wing Tank Factor
 
 % Structure
 REF.Struct.spar_front = [NaN, 0.20, 0.20]; % [-]
-REF.Struct.spar_rear = [NaN, 0.60, 0.60];  % [-]
+REF.Struct.spar_rear = [NaN, 0.75, 0.75];  % [-]       Source: Airbus APM
 REF.Struct.Alu.E = conv_unit("N/mm^2", "N/m^2", 70.10e3);  % [N/m2]
 REF.Struct.Alu.rho = 2800;    % [kg/m^3]
 REF.Struct.Alu.Ft = conv_unit("N/mm^2", "N/m^2", 295);        % [N/m2] 
@@ -124,6 +130,11 @@ REF.W.fuel = REF.W.MTOW - REF.W.OEW - REF.W.des_pay;        % fuel weight for ma
 REF.W.ZFW = REF.W.MTOW - REF.W.fuel;                        % Zero-fuel weight	
 REF.W.des = sqrt(REF.W.MTOW * (REF.W.MTOW-REF.W.fuel));     % Design load
 
+% Fuel Tank Volume Check
+REF.Fuel_Tank.VolumeFuel = REF.W.fuel / 9.81 / REF.Fuel_Tank.FuelDensity; 
+fprintf('Total Fuel volume: %.2f m^3\n', REF.Fuel_Tank.VolumeFuel);
+fprintf('Total Wing volume: %.2f m^3\n', REF.Fuel_Tank.VolumeTank);
+
 %% Aerodynamic Solver
 tic
 fprintf("start inviscid simulation \n");
@@ -154,24 +165,15 @@ fprintf("Lift to Drag Ratio: %.2f \n", REF.Performance.L_D);
 fprintf("Drag coeficient: %f \n",  REF.Performance.CD);
 fprintf("Drag coeficient without wing: %f \n", REF.Performance.CD_woWing);
 
-%% Fuel Tank Volume Calculation
-Wing_Volume = get_Wing_Volume(REF, 150, 300);
-
-% Assume 80% of the wing volume is usable for fuel
-REF.Fuel_Tank.Volume = 0.93 * Wing_Volume;
-REF.Fuel_Tank.FuelDensity = 0.81715*1e3; % kg/m^3  
-REF.Fuel_Tank.Available_fuel_mass = REF.Fuel_Tank.Volume * REF.Fuel_Tank.FuelDensity;
-fprintf('Total wing volume: %.2f m^3\n', Wing_Volume);
-
 %% MDA consistency check loop
 REF.Sim.EMWET_show = 0;
 REF = MDA(REF);
 
 %% Visualisation
-% plot_AeroPerformance(REF, REF, Resolution);
-% plot_Airfoil(REF, REF, Resolution);
-% plot_WingPlanfrom(REF, REF, Resolution);
-% plot_Wing3D(REF, REF, Resolution);
+% plot_AeroPerformance(REF, REF, REF.Sim.Graphics.Resolution);
+% plot_Airfoil(REF, REF, REF.Sim.Graphics.Resolution);
+% plot_WingPlanfrom(REF, REF, REF.Sim.Graphics.Resolution);
+% plot_Wing3D(REF, REF, REF.Sim.Graphics.Resolution);
 
 %% Safe Reference Aircraft File
 save("A330-300.mat", "REF");   % saves AC data  into a .mat file

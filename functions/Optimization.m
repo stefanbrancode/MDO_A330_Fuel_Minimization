@@ -1,4 +1,4 @@
-function R = Optimization(MOD, REF, x_norm, lb, ub)
+function f = Optimization(MOD, REF, x_norm, lb, ub)
 % Denormilaize design vector
 x = Denormalize_Design_Vector(x_norm, lb, ub); 
 
@@ -22,15 +22,10 @@ MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analy
 MOD = get_Performance(MOD, REF); 
 
 % Minimize -Range
-R = -MOD.Performance.R;
-disp(MOD.Performance.R)
+f = -MOD.Performance.R;     % We optimize -R to maximize
+if isnan(f) || isinf(f)
+    f = 0;             % Penalty for invalid design           
+end
 
-%% Volume calculation
-Wing_Volume = get_Wing_Volume(MOD, 150, 300);
-
-MOD.Fuel_Tank.VolumeTank = 0.93 * Wing_Volume;
-MOD.Fuel_Tank.FuelDensity = 0.81715*1e3; % kg/m^3  
-MOD.Fuel_Tank.Available_fuel_mass = MOD.Fuel_Tank.VolumeTank * MOD.Fuel_Tank.FuelDensity;
-
-disp('OPTIMISATION ITERATION FINISHED')
+fprintf('OPTIMISATION ITERATION FINISHED     R: %.0f m \n', MOD.Performance.R)
 end

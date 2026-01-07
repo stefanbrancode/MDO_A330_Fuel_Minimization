@@ -11,8 +11,9 @@ end
 q = 0.5*AC.Mission.MO.rho * AC.Mission.MO.V^2;
 
 y = AC.Res.invis.Wing.Yst;
+c = zeros(length(y), 1);
 for i = 1:(length(y))
-    if y(i)<=AC.Wing.y(2)
+    if y(i) <= AC.Wing.y(2)
         c(i) = AC.Wing.c(1) + y(i) .* (tan(AC.Wing.sweepTE(1))-tan(AC.Wing.sweepLE));
     else
         c(i) = AC.Wing.c(2) + (y(i) -AC.Wing.y(2)) .* (tan(AC.Wing.sweepTE(2))-tan(AC.Wing.sweepLE));
