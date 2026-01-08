@@ -5,7 +5,7 @@ clc
 
 %% Initialize 
 % Initialize Folders 
-folders = ["functions", "Q3d", "EMWET 1.5"];
+folders = ["functions", "Q3d", "EMWET"];
 for i = 1:length(folders)
     addpath(genpath(folders{i}));
     disp(['Folder added: ', folders{i}]);

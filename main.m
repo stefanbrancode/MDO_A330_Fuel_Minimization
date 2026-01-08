@@ -16,7 +16,7 @@ dbclear if warning
 
 %% -------------------- Load Refrence Model ----------------
 % Initialize Folders 
-folders = ["functions", "Q3d", "EMWET 1.5"];
+folders = ["functions", "Q3d", "EMWET"];
 for i = 1:length(folders)
     addpath(genpath(folders{i}));
     disp(['Folder added: ', folders{i}]);
@@ -35,7 +35,7 @@ MOD.Sim.EMWET_show = 0;
 MOD.Sim.Graphics.Resolution = 300;  
 
 % 
-MOD.Sim.MDA_TOL = 1e-4;
+MOD.Sim.MDA_TOL = 1e-6;
 MOD.Sim.MDA_MAXIter = 50;
 
 MOD.Sim.Q3D_MAXIter = 150;
@@ -79,13 +79,13 @@ lb = [
     0.8 * REF.W.fuel            % [kg] Fuel weight 
 
     % Wing planform geometry
-    0.5 * REF.Wing.span         % [m] Wing span
+    0.8 * REF.Wing.span         % [m] Wing span
     0.5 * REF.Wing.c(2)         % [m] Kink chord
-    10 * pi/180                 % [rad] Leading edge sweep
+    25 * pi/180                 % [rad] Leading edge sweep
     0.1                         % [-] Outer panel taper ratio
 
     % Fuel tank
-    0.5                         % [-] Spanwise fuel tank extent
+    0.6                         % [-] Spanwise fuel tank extent
 
     % Wing structure
     0.15                        % [-] Front spar position (outer wing)
@@ -108,7 +108,7 @@ ub = [
     % Wing planform geometry
     65                      % [m] Wing span
     1.5 * REF.Wing.c(2)    % [m] Kink chord
-    70 * pi/180             % [rad] Leading edge sweep
+    45 * pi/180             % [rad] Leading edge sweep
     1                     % [-] Outer panel taper ratio
 
     % Fuel tank
@@ -141,10 +141,10 @@ check_DesignVectorBounds(x0, lb, ub)
 options.Display         = 'iter-detailed';
 options.OutputFcn       = @(x,optimValues,state) save_Iterations(x, lb, ub, optimValues, state);
 options.Algorithm       = 'sqp';
-% options.UseParallel     = true;
+options.UseParallel     = true;
 options.FunValCheck     = 'off';
 options.MaxFunctionEvaluations = 100;
-options.DiffMinChange   = 1e-2;
+options.DiffMinChange   = 1e-4;
 options.DiffMaxChange   = 0.05;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
@@ -155,22 +155,57 @@ options.TolX            = 1e-6;         % Maximum difference between two subsequ
 tic;
 % Optimization_Stefan takes as input the non-normalized bounds in order to
 % revert the normalization.
-[x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(MOD, REF, x_norm, lb, ub), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(MOD, REF), options);
-tSolver = toc;
+try
+    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(MOD, REF, x_norm, lb, ub), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, MOD, REF), options);
+catch exception
+    fprintf("Error: FminCon did not Converge/Gave Error")
+end
+% Clean up worker directories to prevent disk filling up
+% if cleanUp && exist(workerDir, 'dir')
+%     try rmdir(workerDir, 's'); catch, end
+% end % TODO  --------------
 
-%% Unpack solution
-x_opt = Denormalize_Design_Vector(x_opt_norm, lb_active,ub_active); 
+MOD.Sim.tSolver = toc;
 
-%% -------------------- Outputs and Visualization ------------------------------------
-% plot_AeroPerformance(REF, DUMMY_DESIGN, Resolution);
-% plot_Airfoil(REF, DUMMY_DESIGN, Resolution);
-% plot_WingPlanfrom(REF, DUMMY_DESIGN, Resolution);
-% plot_Wing3D(REF, DUMMY_DESIGN, Resolution);
+%% Unpack solution and Recreate Aircraft
+% Denormilaize design vector
+x_opt = Denormalize_Design_Vector(x_opt_norm, lb, ub);
 
-% xcompare = [REF.Performance.R, Denormalize_Design_Vector(x0_active_norm,lb_active,ub_active) ; MOD.Performance.R, Denormalize_Design_Vector(x_opt_norm,lb_active,ub_active)]
+% Assign Design Vector to Aircracft
+MOD = Assign_DesignVector(x_opt, MOD);
+
+% Generate new Wing Geometry
+MOD = get_Geometry(MOD);
+
+% Generate new Mission Data
+MOD.Mission.dp = get_Mission(MOD.Mission.dp, MOD.Wing.MAC);
+MOD.Mission.MO = get_Mission(MOD.Mission.MO, MOD.Wing.MAC);
+
+% Run MDA (convergence loop) 
+MOD = MDA(MOD); 
+
+% Run Aerodinamic Analisis
+MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analysis to obtain Drag
+
+% Run Performance (Range) 
+MOD = get_Performance(MOD, REF);
 
 %% Save Optimized Aircraft File
-save("A330-300_MOD.mat", "MOD");   % saves AC data  into a .mat file
+save(sprintf('%s.mat', MOD.Name), 'MOD');   % saves AC data  into a .mat file
+save(sprintf('%s.mat', 'x_opt_norm'), 'x_opt_norm'); 
+save(sprintf('%s.mat', 'R_opt'), 'R_opt'); 
+save(sprintf('%s.mat', 'EXITFLAG'), 'EXITFLAG'); 
+save(sprintf('%s.mat', 'OUTPUT'), 'OUTPUT'); 
 
-% End the logging of the Command Window
+%% -------------------- Outputs and Visualization ------------------------------------
+plot_AeroPerformance(REF, MOD, MOD.Sim.Graphics.Resolution);
+plot_Airfoil(REF, MOD, MOD.Sim.Graphics.Resolution);
+plot_WingPlanfrom(REF, MOD, MOD.Sim.Graphics.Resolution);
+plot_Wing3D(REF, MOD, MOD.Sim.Graphics.Resolution);
+
+fprintf("Range extension: %.0f km  \n", (MOD.Performance.R - REF.Performance.R) / 1000);
+fprintf("Range extension: %.0f  \n", (MOD.Performance.R - REF.Performance.R) / REF.Performance.R * 100);
+
+fprintf("Time till Convergence: %.2f min     %.2f h \n", MOD.Sim.tSolver/60, MOD.Sim.tSolver/60/60);
+%% End the logging of the Command Window
 diary off
