@@ -16,11 +16,16 @@ dbclear if warning
 
 %% -------------------- Load Refrence Model ----------------
 % Initialize Folders 
-folders = ["functions", "Q3d", "EMWET"];
+folders = ["functions", "Q3d", "EMWET", "Results"];
 for i = 1:length(folders)
     addpath(genpath(folders{i}));
     disp(['Folder added: ', folders{i}]);
 end
+
+% % Initiate global variables
+% global REF
+% global MOD
+% global x0
 
 % Load Refernce Aircraft
 load("A330-300.mat")
@@ -109,7 +114,7 @@ ub = [
     65                      % [m] Wing span
     1.5 * REF.Wing.c(2)    % [m] Kink chord
     45 * pi/180             % [rad] Leading edge sweep
-    1                     % [-] Outer panel taper ratio
+    0.5                     % [-] Outer panel taper ratio
 
     % Fuel tank
     0.85                        % [-] Spanwise fuel tank extent
@@ -123,10 +128,11 @@ ub = [
     1 * ones(numel(REF.Wing.Airfoil.CST_low),1) % Lower surface CST coefficients
 ];
 
-%normalized vektor and bounds for optimizer hypercube
-lb_norm = zeros(1, length(lb));
-ub_norm = ones(1, length(ub));
-x0_norm = Normalize_Design_Vector(x0,lb,ub); 
+% normalized vektor and bounds for optimizer hypercube
+MOD.Sim.x0 = x0;
+lb_norm = lb./abs(x0); % zeros(1, length(lb));
+ub_norm = ub./abs(x0); % ones(1, length(ub));
+x0_norm = x0./abs(x0); % Normalize_Design_Vector(x0,lb,ub); 
 
 %% Test and Check Section
 check_DesignVectorBounds(x0, lb, ub)
@@ -139,7 +145,7 @@ check_DesignVectorBounds(x0, lb, ub)
 %% Define solver settings 
 % Optimization options
 options.Display         = 'iter-detailed';
-options.OutputFcn       = @(x,optimValues,state) save_Iterations(x, lb, ub, optimValues, state);
+options.OutputFcn       = @(x_norm,optimValues,state) save_Iterations(x_norm, x0, REF, optimValues, state);
 options.Algorithm       = 'sqp';
 options.UseParallel     = true;
 options.FunValCheck     = 'off';
@@ -153,13 +159,13 @@ options.TolX            = 1e-6;         % Maximum difference between two subsequ
 
 %% -------------------- Optimization --------------------------
 tic;
-% Optimization_Stefan takes as input the non-normalized bounds in order to
-% revert the normalization.
-try
-    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(MOD, REF, x_norm, lb, ub), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, MOD, REF), options);
-catch exception
-    fprintf("Error: FminCon did not Converge/Gave Error")
-end
+% Optimization takes as input the initial design vector in order to revert the normalization.
+% try
+    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, MOD, REF), options);
+% catch exception
+%     fprintf("Error: FminCon did not Converge/Gave Error")
+% end
+
 % Clean up worker directories to prevent disk filling up
 % if cleanUp && exist(workerDir, 'dir')
 %     try rmdir(workerDir, 's'); catch, end
@@ -168,40 +174,24 @@ end
 MOD.Sim.tSolver = toc;
 
 %% Unpack solution and Recreate Aircraft
-% Denormilaize design vector
-x_opt = Denormalize_Design_Vector(x_opt_norm, lb, ub);
-
-% Assign Design Vector to Aircracft
-MOD = Assign_DesignVector(x_opt, MOD);
-
-% Generate new Wing Geometry
-MOD = get_Geometry(MOD);
-
-% Generate new Mission Data
-MOD.Mission.dp = get_Mission(MOD.Mission.dp, MOD.Wing.MAC);
-MOD.Mission.MO = get_Mission(MOD.Mission.MO, MOD.Wing.MAC);
-
-% Run MDA (convergence loop) 
-MOD = MDA(MOD); 
-
-% Run Aerodinamic Analisis
-MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analysis to obtain Drag
-
-% Run Performance (Range) 
-MOD = get_Performance(MOD, REF);
+MOD = get_newAC(x_opt_norm, x0, REF);
+MOD.Sim.x_opt = x;
 
 %% Save Optimized Aircraft File
+cd 'Results'
 save(sprintf('%s.mat', MOD.Name), 'MOD');   % saves AC data  into a .mat file
 save(sprintf('%s.mat', 'x_opt_norm'), 'x_opt_norm'); 
 save(sprintf('%s.mat', 'R_opt'), 'R_opt'); 
 save(sprintf('%s.mat', 'EXITFLAG'), 'EXITFLAG'); 
 save(sprintf('%s.mat', 'OUTPUT'), 'OUTPUT'); 
+cd '..'
 
 %% -------------------- Outputs and Visualization ------------------------------------
 plot_AeroPerformance(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Airfoil(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_WingPlanfrom(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Wing3D(REF, MOD, MOD.Sim.Graphics.Resolution);
+plot_OptimizationHistory(iterations_log.mat);
 
 fprintf("Range extension: %.0f km  \n", (MOD.Performance.R - REF.Performance.R) / 1000);
 fprintf("Range extension: %.0f  \n", (MOD.Performance.R - REF.Performance.R) / REF.Performance.R * 100);

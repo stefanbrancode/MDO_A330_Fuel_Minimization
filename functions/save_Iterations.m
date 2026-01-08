@@ -1,4 +1,4 @@
-function stop = save_Iterations(x_norm, lb, ub, optimValues, state)
+function stop = save_Iterations(x_norm, x0, REF, optimValues, state)
 %% save_Iterations
 % OutputFcn for fmincon with denormalized design vector logging
 
@@ -52,17 +52,24 @@ switch state
             'iteration',        [], ...
             'funcCount',        [], ...
             'fval',             [], ...
+            'constrviolation',  [], ...
             'stepsize',         [], ...
             'firstorderopt',    [], ...
-            'constrviolation',  [], ...
             'x_norm',           [], ...
-            'x_phys',           [] );
+            'x_phys',           [], ...
+            'c',                [], ...
+            'ceq',              [] ...
+            );
+        
+        % Change directory
+        cd 'Results'
 
+        % Generate File and Header
         fid = fopen('iterations_log.txt','w');
         fprintf(fid, ...
-            'Iter | Func-count | Fval        | Feasibility | Step Length | Norm of step | First-order optimality | ');
+            'Iter | Func-count | Fval          | Feasibility | Step Length | Norm of step | First-order optimality');
         for i = 1:numel(x_norm)
-            fprintf(fid, '%-7s | ', DesignVarNames{i});
+            fprintf(fid, ' | %-7s ', DesignVarNames{i});
         end
         fprintf(fid, '\n');
         fclose(fid);
@@ -73,42 +80,52 @@ switch state
     case 'iter'
 
         % Denormalize design vector
-        x = Denormalize_Design_Vector(x_norm, lb, ub);
+        x = x_norm .* abs(x0); 
+        MOD = get_newAC(x_norm, x0, REF);
+        [c, ceq] = Constraints(x_norm, MOD, REF);
 
         % Store numerical data
         logData.iteration(end+1,1)       = optimValues.iteration;
         logData.funcCount(end+1,1)       = optimValues.funccount;
         logData.fval(end+1,1)            = optimValues.fval;
         logData.stepsize(end+1,1)        = optimValues.stepsize;
-        logData.firstorderopt(end+1,1)   = optimValues.firstorderopt;
         logData.constrviolation(end+1,1) = optimValues.constrviolation;
+        logData.firstorderopt(end+1,1)   = optimValues.firstorderopt;
         logData.x_norm(end+1,:)          = x_norm(:).';
         logData.x_phys(end+1,:)          = x(:).';
+        logData.c{end+1}                 = c(:).';
+        logData.ceq{end+1}               = ceq(:).';
+        
+        % Change directory
+        cd 'Results'
 
         % Append to text log
         fid = fopen('iterations_log.txt','a');
 
         fprintf(fid, ...
-            '%4d | %7d | %.6e | %.3e | %.3e | %.3e | ', ...
+            '%4d |    %7d | %.6e |   %.3e |   %.3e | %.3e | ', ...
             optimValues.iteration, ...
             optimValues.funccount, ...
             optimValues.fval, ...
+            optimValues.constrviolation, ...
             optimValues.stepsize, ...
-            optimValues.firstorderopt, ...
-            optimValues.constrviolation);
+            optimValues.firstorderopt);
 
-        fprintf(fid, '%.4f | ', x);
+        fprintf(fid, ' | %.4f', x);
+        fprintf(fid, ' | %.4f', c);
+        % fprintf(fid, ' | %.4f', ceq);
         fprintf(fid, '\n');
 
         fclose(fid);
 
         % Crash-safe save
         save('iterations_log.mat','logData');
-
     % ==============================================================
     % Finalization
     % ==============================================================
     case 'done'
         save('iterations_log.mat','logData');
 end
+
+cd '..'
 end

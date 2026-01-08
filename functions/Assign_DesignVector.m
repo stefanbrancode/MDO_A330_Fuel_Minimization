@@ -11,6 +11,7 @@ AC.W.fuel = x(3);        % fuel weight for max range at design payload
 
 % Wing planform geometry
 AC.Wing.span = x(4);
+AC.Wing.y(3) = x(4)/2;
 AC.Wing.c(2) = x(5);
 AC.Wing.sweepLE = x(6);
 AC.Wing.Taper(2) = x(7);  

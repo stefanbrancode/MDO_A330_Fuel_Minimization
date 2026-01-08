@@ -16,7 +16,9 @@ function MOD = get_Performance(MOD, REF)
 % Total CD consists of:
 %   - Wingless aircraft drag (assumed unchanged)
 %   - Wing drag from Q3D viscous analysis
-MOD.Performance.CD_woWing_MOD = REF.Performance.CD_woWing * REF.Mission.dp.q / MOD.Mission.dp.q * REF.Wing.Sref / MOD.Wing.Sref ; 
+D_woWing = REF.Performance.CD_woWing * REF.Mission.dp.q * REF.Wing.Sref;
+D_woWing_scaled = D_woWing * MOD.Mission.dp.q / REF.Mission.dp.q;
+MOD.Performance.CD_woWing_MOD = D_woWing_scaled / MOD.Mission.dp.q / MOD.Wing.Sref; % Could be reduced to one line
 MOD.Performance.CD = MOD.Performance.CD_woWing_MOD + MOD.Res.vis.CDwing;
 
 %% ------------------------------------------------------------------------

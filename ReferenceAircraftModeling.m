@@ -117,6 +117,9 @@ REF.Engine.S_Naccelft = pi * REF.Engine.dft * REF.Engine.lft;      % [ft^2] wett
         REF.Engine.lft, REF.Engine.dft, REF.Mission.MO.n, REF.Engine.num, REF.Engine.S_Naccelft);
 REF.Engine.m_installed = REF.Engine.m_pylongroup;
 
+% Perfroamce
+REF.Performance.W_S = REF.W.MTOW/REF.Wing.Sref;
+
 % normal Flight Condition
 [~, ~, REF.Mission.dp.rho, REF.Mission.dp.a, REF.Mission.dp.mu] = get_ISA(REF.Mission.dp.alt);
 REF.Mission.dp.M = REF.Mission.dp.V / REF.Mission.dp.a; % flight Mach number
@@ -145,6 +148,12 @@ fprintf("Comutational time: %.2f s \n", t);
 tic
 fprintf("start viscous simulation \n");
 REF.Res.vis = get_Q3D(REF, REF.Mission.dp, REF.W.des, "viscous");
+t=toc;
+fprintf("Comutational time: %.2f s \n", t);
+
+tic
+fprintf("start induced Drag simulation \n");
+REF.Res.induced = get_Q3D(REF, REF.Mission.dp, REF.W.des, "inviscid"); %viscous analysis to obtain Drag
 t=toc;
 fprintf("Comutational time: %.2f s \n", t);
 
