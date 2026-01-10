@@ -1,4 +1,7 @@
-function [c, ceq] = Constraints(x_norm, MOD, REF)
+function [c, ceq] = Constraints(x_norm, x0, REF)
+
+% Model Aircraft
+MOD = get_newAC(x_norm, x0, REF);
 
 % volume of the fuel must be smaller than the volume of the tank 
 MOD.Fuel_Tank.VolumeFuel = MOD.W.fuel / 9.81 / MOD.Fuel_Tank.FuelDensity;

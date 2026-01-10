@@ -25,8 +25,8 @@ set(groot,'defaultLegendInterpreter','latex')
 %% ------------------------------------------------------------------------
 % Plot styling
 % -------------------------------------------------------------------------
-colors.REF = "#000000";   % black
-colors.MOD = "#80B3FF";   % light blue
+colors.REF = "#64a6ea"; 
+colors.MOD = "#e6a26e";   
 
 line.design   = "-";
 line.critical = "--";

@@ -2,6 +2,14 @@ function stop = save_Iterations(x_norm, x0, REF, optimValues, state)
 %% save_Iterations
 % OutputFcn for fmincon with denormalized design vector logging
 
+%% --- Global plot settings ---
+set(groot,'defaultTextInterpreter','latex');
+set(groot,'defaultAxesTickLabelInterpreter','latex');
+set(groot,'defaultLegendInterpreter','latex');
+
+% Save current location to return later
+origDir = pwd;
+
 stop = false;
 persistent logData
 
@@ -81,8 +89,7 @@ switch state
 
         % Denormalize design vector
         x = x_norm .* abs(x0); 
-        MOD = get_newAC(x_norm, x0, REF);
-        [c, ceq] = Constraints(x_norm, MOD, REF);
+        [c, ceq] = Constraints(x_norm, x0, REF);
 
         % Store numerical data
         logData.iteration(end+1,1)       = optimValues.iteration;
@@ -124,8 +131,10 @@ switch state
     % Finalization
     % ==============================================================
     case 'done'
+    % Change directory
+    cd 'Results'
         save('iterations_log.mat','logData');
 end
-
-cd '..'
+    
+cd(origDir);
 end

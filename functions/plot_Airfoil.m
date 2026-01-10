@@ -58,8 +58,8 @@ end
 %% --- Axis formatting ---
 axis([-0.1, 1.1, -0.1, 0.1]);
 
-xlabel('$x/c$');
 ylabel('$y/c$');
+xlabel('$x/c$');
 
 legend(h, names, 'Location','northeast');
 

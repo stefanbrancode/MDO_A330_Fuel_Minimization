@@ -19,8 +19,14 @@ MOD.Mission.MO = get_Mission(MOD.Mission.MO, MOD.Wing.MAC);
 MOD = MDA(MOD); 
 
 % Run Aerodinamic Analisis
-MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analysis to obtain Drag
-MOD.Res.induced = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "inviscid"); %viscous analysis to obtain Drag
+try
+    MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analysis to obtain Drag
+    MOD.Res.induced = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "inviscid"); %viscous analysis to obtain Drag
+catch error
+    fprintf('Error occurred: %s\n', error.message);
+    MOD.Res.vis.CLwing = NaN;
+    MOD.Res.vis.CDwing = NaN;
+end
 
 % Run Performance (Range) 
 MOD = get_Performance(MOD, REF);

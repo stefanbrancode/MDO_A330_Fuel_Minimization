@@ -148,7 +148,7 @@ options.Algorithm       = 'sqp';
 options.UseParallel     = true;
 options.FunValCheck     = 'off';
 
-options.DiffMinChange   = 1e-5;  
+options.DiffMinChange   = 0.005;  
 options.DiffMaxChange   = 0.05;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
 options.TolFun          = 1e-7;         % Maximum difference between two subsequent objective value
@@ -160,7 +160,7 @@ options.MaxIter         = 100;          % Maximum iterations
 tic;
 % Optimization takes as input the initial design vector in order to revert the normalization.
 % try
-    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, x0, REF), options);
+    [x_opt_norm, f_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, x0, REF), options);
 % catch exception
 %     fprintf("Error: FminCon did not Converge/Gave Error")
 % end
@@ -183,8 +183,9 @@ origDir = pwd;
 cd 'Results'
 save(sprintf('%s.mat', MOD.Name), 'MOD');   % saves AC data  into a .mat file
 save(sprintf('%s.mat', 'x_opt_norm'), 'x_opt_norm'); 
-save(sprintf('%s.mat', 'R_opt'), 'R_opt'); 
+save(sprintf('%s.mat', 'f_opt'), 'f_opt'); 
 save(sprintf('%s.mat', 'EXITFLAG'), 'EXITFLAG'); 
+save(sprintf('%s.mat', 'OUTPUT'), 'OUTPUT');
 save(sprintf('%s.mat', 'OUTPUT'), 'OUTPUT'); 
 % Return to main directory
 cd(origDir);
@@ -194,10 +195,10 @@ plot_AeroPerformance(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Airfoil(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_WingPlanfrom(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Wing3D(REF, MOD, MOD.Sim.Graphics.Resolution);
-plot_OptimizationHistory("iterations_log.mat");
+plot_OptimizationHistory("iterations_log.mat", MOD.Sim.Graphics.Resolution);
 
 fprintf("Range extension: %.0f km  \n", (MOD.Performance.R - REF.Performance.R) / 1000);
-fprintf("Range extension: %.0f  \n", (MOD.Performance.R - REF.Performance.R) / REF.Performance.R * 100);
+fprintf("Range extension: %.0f Percent \n", (MOD.Performance.R - REF.Performance.R) / REF.Performance.R * 100);
 
 fprintf("Time till Convergence: %.2f min     %.2f h \n", MOD.Sim.tSolver/60, MOD.Sim.tSolver/60/60);
 %% End the logging of the Command Window

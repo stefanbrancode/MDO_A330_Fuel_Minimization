@@ -7,7 +7,7 @@ set(groot,'defaultLegendInterpreter','latex')
 ACs   = {REF, MOD};
 % Colors for plotting (MOD, REF)
 names = {'original A330-300'; 'modified A330-300'};
-colors = ["#000000"; "#80B3FF"];   % black (REF), blue (MOD)
+colors = ["#64a6ea"; "#e6a26e"];
 
 color_fuse = [0.75 0.75 0.75]; 
 
