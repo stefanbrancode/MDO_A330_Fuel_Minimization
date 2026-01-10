@@ -59,7 +59,7 @@ REF.Engine.dft = conv_unit("m", "ft", 3.10);      % [ft] diameter of Naccel   %%
 REF.Engine.CT = 0.565/60/60;      % [N/Ns] specific fuel consumption Source: https://web.archive.org/web/20190627155423/http://www.jet-engine.net/civtfspec.html
 
 % Fuel Tank
-REF.Fuel_Tank.eta = [0, 0.8499];  % [-] 
+REF.Fuel_Tank.eta = [0, 0.85];  % [-] 
 REF.Fuel_Tank.FuelDensity = 0.81715*1e3; % kg/m^3 
 REF.Fuel_Tank.K = 0.93; % Wing Tank Factor
 

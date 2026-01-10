@@ -28,12 +28,10 @@ end
 % global x0
 
 % Load Refernce Aircraft
-load("A330-300.mat")
+load("A330-300_REF.mat")
 
 % define new object to be modified
 MOD = REF;
-MOD.Name = "A330-300_MOD"; %change the name
-MOD.Wing.Airfoil_Name = "A330_Airfoil_MOD"; %change the name
 MOD.Sim.EMWET_show = 0;
 
 % Resolution of the graphics
@@ -149,19 +147,20 @@ options.OutputFcn       = @(x_norm,optimValues,state) save_Iterations(x_norm, x0
 options.Algorithm       = 'sqp';
 options.UseParallel     = true;
 options.FunValCheck     = 'off';
-options.MaxFunctionEvaluations = 100;
-options.DiffMinChange   = 1e-4;
+
+options.DiffMinChange   = 1e-5;  
 options.DiffMaxChange   = 0.05;
 options.TolCon          = 1e-6;         % Maximum difference between two subsequent constraint vectors [c and ceq]
-options.TolFun          = 1e-6;         % Maximum difference between two subsequent objective value
+options.TolFun          = 1e-7;         % Maximum difference between two subsequent objective value
 options.TolX            = 1e-6;         % Maximum difference between two subsequent design vectors
-% options.MaxIter         = 100;          % Maximum iterations
+options.MaxFunctionEvaluations = 100;   % Maximum Function Evaluations 
+options.MaxIter         = 100;          % Maximum iterations
 
 %% -------------------- Optimization --------------------------
 tic;
 % Optimization takes as input the initial design vector in order to revert the normalization.
 % try
-    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, MOD, REF), options);
+    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, x0, REF), options);
 % catch exception
 %     fprintf("Error: FminCon did not Converge/Gave Error")
 % end
@@ -171,27 +170,31 @@ tic;
 %     try rmdir(workerDir, 's'); catch, end
 % end % TODO  --------------
 
-MOD.Sim.tSolver = toc;
+tSolver = toc;
 
 %% Unpack solution and Recreate Aircraft
 MOD = get_newAC(x_opt_norm, x0, REF);
-MOD.Sim.x_opt = x;
+MOD.Sim.x_opt = x_opt_norm;
+MOD.Sim.tSolver = tSolver;
 
 %% Save Optimized Aircraft File
+% Save current location to return later
+origDir = pwd;
 cd 'Results'
 save(sprintf('%s.mat', MOD.Name), 'MOD');   % saves AC data  into a .mat file
 save(sprintf('%s.mat', 'x_opt_norm'), 'x_opt_norm'); 
 save(sprintf('%s.mat', 'R_opt'), 'R_opt'); 
 save(sprintf('%s.mat', 'EXITFLAG'), 'EXITFLAG'); 
 save(sprintf('%s.mat', 'OUTPUT'), 'OUTPUT'); 
-cd '..'
+% Return to main directory
+cd(origDir);
 
 %% -------------------- Outputs and Visualization ------------------------------------
 plot_AeroPerformance(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Airfoil(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_WingPlanfrom(REF, MOD, MOD.Sim.Graphics.Resolution);
 plot_Wing3D(REF, MOD, MOD.Sim.Graphics.Resolution);
-plot_OptimizationHistory(iterations_log.mat);
+plot_OptimizationHistory("iterations_log.mat");
 
 fprintf("Range extension: %.0f km  \n", (MOD.Performance.R - REF.Performance.R) / 1000);
 fprintf("Range extension: %.0f  \n", (MOD.Performance.R - REF.Performance.R) / REF.Performance.R * 100);

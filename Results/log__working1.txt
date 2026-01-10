@@ -1,0 +1,3698 @@
+Folder added: functions
+Folder added: Q3d
+Folder added: EMWET
+Folder added: Results
+✓ All 20 design variables are within bounds.
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8424157 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8423325 m 
+OPTIMISATION ITERATION FINISHED     R: 8423162 m 
+OPTIMISATION ITERATION FINISHED     R: 8424157 m 
+OPTIMISATION ITERATION FINISHED     R: 8424295 m 
+OPTIMISATION ITERATION FINISHED     R: 8424157 m 
+OPTIMISATION ITERATION FINISHED     R: 8424431 m 
+OPTIMISATION ITERATION FINISHED     R: 8424157 m 
+OPTIMISATION ITERATION FINISHED     R: 8424337 m 
+OPTIMISATION ITERATION FINISHED     R: 8423688 m 
+OPTIMISATION ITERATION FINISHED     R: 8424157 m 
+OPTIMISATION ITERATION FINISHED     R: 8423710 m 
+OPTIMISATION ITERATION FINISHED     R: 8425662 m 
+OPTIMISATION ITERATION FINISHED     R: 8424064 m 
+OPTIMISATION ITERATION FINISHED     R: 8423751 m 
+OPTIMISATION ITERATION FINISHED     R: 8423958 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8424337 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8424295 m 
+OPTIMISATION ITERATION FINISHED     R: 8423436 m 
+OPTIMISATION ITERATION FINISHED     R: 8424295 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8424021 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+ Iter  Func-count            Fval   Feasibility   Step Length       Norm of   First-order  
+                                                                       step    optimality
+    0          21   -1.010818e+00     5.803e-08     1.000e+00     0.000e+00     1.806e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214968 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214968 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 58373 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216999 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214968 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214968 kg 
+OPTIMISATION ITERATION FINISHED     R: 7226641 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214968 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214968 kg 
+OPTIMISATION ITERATION FINISHED     R: 8345002 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8582948 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8582948 m 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+OPTIMISATION ITERATION FINISHED     R: 8582948 m 
+OPTIMISATION ITERATION FINISHED     R: 8581956 m 
+OPTIMISATION ITERATION FINISHED     R: 8583265 m 
+OPTIMISATION ITERATION FINISHED     R: 8585035 m 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+OPTIMISATION ITERATION FINISHED     R: 8583749 m 
+OPTIMISATION ITERATION FINISHED     R: 8582848 m 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+OPTIMISATION ITERATION FINISHED     R: 8583806 m 
+OPTIMISATION ITERATION FINISHED     R: 8583060 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8583522 m 
+OPTIMISATION ITERATION FINISHED     R: 8582948 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+OPTIMISATION ITERATION FINISHED     R: 8583920 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8583207 m 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+OPTIMISATION ITERATION FINISHED     R: 8582677 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8583263 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    1          45   -1.029871e+00     8.622e-04     3.430e-01     4.393e-01     2.813e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 52036 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 53930 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6979954 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7663645 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8263902 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8420422 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8537976 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8553347 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8567650 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8573990 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8576629 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8578501 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584010 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584010 m 
+OPTIMISATION ITERATION FINISHED     R: 8583438 m 
+OPTIMISATION ITERATION FINISHED     R: 8584054 m 
+OPTIMISATION ITERATION FINISHED     R: 8584194 m 
+OPTIMISATION ITERATION FINISHED     R: 8584379 m 
+OPTIMISATION ITERATION FINISHED     R: 8583639 m 
+OPTIMISATION ITERATION FINISHED     R: 8584238 m 
+OPTIMISATION ITERATION FINISHED     R: 8583018 m 
+OPTIMISATION ITERATION FINISHED     R: 8584379 m 
+OPTIMISATION ITERATION FINISHED     R: 8584010 m 
+OPTIMISATION ITERATION FINISHED     R: 8582324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584010 m 
+OPTIMISATION ITERATION FINISHED     R: 8584238 m 
+OPTIMISATION ITERATION FINISHED     R: 8584053 m 
+OPTIMISATION ITERATION FINISHED     R: 8583826 m 
+OPTIMISATION ITERATION FINISHED     R: 8583885 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584238 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584379 m 
+OPTIMISATION ITERATION FINISHED     R: 8584238 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    2          78   -1.029999e+00     8.547e-04     1.384e-02     2.022e-02     2.608e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 5402553 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6444401 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7197356 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7724457 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8052786 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8276404 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8402174 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8489363 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8520585 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8539738 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8557820 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8565813 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8570599 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8577321 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8580827 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8580161 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8582327 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8582656 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8582554 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581880 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581911 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584183 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584121 m 
+OPTIMISATION ITERATION FINISHED     R: 8584183 m 
+OPTIMISATION ITERATION FINISHED     R: 8582435 m 
+OPTIMISATION ITERATION FINISHED     R: 8583612 m 
+OPTIMISATION ITERATION FINISHED     R: 8583191 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584183 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584183 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8583910 m 
+OPTIMISATION ITERATION FINISHED     R: 8584120 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584325 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+OPTIMISATION ITERATION FINISHED     R: 8584324 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    3         120   -1.030020e+00     8.543e-04     5.585e-04     1.284e-03     2.683e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 5054808 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 6 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 6343581 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7131259 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7753823 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8088171 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8274781 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8384582 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8471059 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8507006 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8532471 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8546692 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8554530 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8560903 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8569383 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8570350 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8576014 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8576274 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8580750 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581235 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581075 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581484 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581563 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581822 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584372 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584372 m 
+OPTIMISATION ITERATION FINISHED     R: 8584372 m 
+OPTIMISATION ITERATION FINISHED     R: 8584058 m 
+OPTIMISATION ITERATION FINISHED     R: 8583380 m 
+OPTIMISATION ITERATION FINISHED     R: 8584372 m 
+OPTIMISATION ITERATION FINISHED     R: 8584372 m 
+OPTIMISATION ITERATION FINISHED     R: 8584058 m 
+OPTIMISATION ITERATION FINISHED     R: 8584557 m 
+OPTIMISATION ITERATION FINISHED     R: 8583801 m 
+OPTIMISATION ITERATION FINISHED     R: 8583977 m 
+OPTIMISATION ITERATION FINISHED     R: 8581416 m 
+OPTIMISATION ITERATION FINISHED     R: 8582688 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584470 m 
+OPTIMISATION ITERATION FINISHED     R: 8584082 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584242 m 
+OPTIMISATION ITERATION FINISHED     R: 8581417 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584058 m 
+OPTIMISATION ITERATION FINISHED     R: 8584058 m 
+OPTIMISATION ITERATION FINISHED     R: 8584058 m 
+OPTIMISATION ITERATION FINISHED     R: 8584242 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    4         164   -1.030042e+00     8.540e-04     2.737e-04     3.900e-04     3.547e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 41149 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 5833098 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6922446 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7653202 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8073585 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8284963 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8393554 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8475658 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8514127 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8538716 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8555065 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8560047 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8566575 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8566694 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8573694 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8573808 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8576243 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581144 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8580697 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581099 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581358 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581339 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581618 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581605 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581831 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581824 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8581969 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214961 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8584378 m 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8584250 m 
+OPTIMISATION ITERATION FINISHED     R: 8581608 m 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8582959 m 
+OPTIMISATION ITERATION FINISHED     R: 8583800 m 
+OPTIMISATION ITERATION FINISHED     R: 8582150 m 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8584380 m 
+OPTIMISATION ITERATION FINISHED     R: 8584221 m 
+OPTIMISATION ITERATION FINISHED     R: 8583897 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584564 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8584564 m 
+OPTIMISATION ITERATION FINISHED     R: 8584478 m 
+OPTIMISATION ITERATION FINISHED     R: 8584792 m 
+OPTIMISATION ITERATION FINISHED     R: 8584564 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    5         212   -1.030093e+00     8.540e-04     6.571e-05     1.013e-04     3.821e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 40474 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 6652422 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7508403 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8020325 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8341586 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8527993 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600420 m 
+OPTIMISATION ITERATION FINISHED     R: 8600099 m 
+OPTIMISATION ITERATION FINISHED     R: 8600099 m 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+OPTIMISATION ITERATION FINISHED     R: 8600371 m 
+OPTIMISATION ITERATION FINISHED     R: 8600099 m 
+OPTIMISATION ITERATION FINISHED     R: 8599151 m 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+OPTIMISATION ITERATION FINISHED     R: 8602643 m 
+OPTIMISATION ITERATION FINISHED     R: 8602330 m 
+OPTIMISATION ITERATION FINISHED     R: 8600018 m 
+OPTIMISATION ITERATION FINISHED     R: 8600147 m 
+OPTIMISATION ITERATION FINISHED     R: 8600099 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601287 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600420 m 
+OPTIMISATION ITERATION FINISHED     R: 8600420 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600372 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600420 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    6         239   -1.031935e+00     8.462e-04     1.176e-01     2.457e-01     3.205e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 39111 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 44521 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 48040 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 50306 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 51774 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 6 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 6776089 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7480417 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8092563 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8312320 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8429918 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8537213 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8559800 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8573940 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8587555 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 8592069 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602043 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601813 m 
+OPTIMISATION ITERATION FINISHED     R: 8601363 m 
+OPTIMISATION ITERATION FINISHED     R: 8602043 m 
+OPTIMISATION ITERATION FINISHED     R: 8602043 m 
+OPTIMISATION ITERATION FINISHED     R: 8601918 m 
+OPTIMISATION ITERATION FINISHED     R: 8601750 m 
+OPTIMISATION ITERATION FINISHED     R: 8601523 m 
+OPTIMISATION ITERATION FINISHED     R: 8601954 m 
+OPTIMISATION ITERATION FINISHED     R: 8601355 m 
+OPTIMISATION ITERATION FINISHED     R: 8602043 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602043 m 
+OPTIMISATION ITERATION FINISHED     R: 8601769 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601047 m 
+OPTIMISATION ITERATION FINISHED     R: 8601813 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601219 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600649 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601813 m 
+OPTIMISATION ITERATION FINISHED     R: 8601777 m 
+OPTIMISATION ITERATION FINISHED     R: 8602183 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601813 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    7         275   -1.032163e+00     7.693e-04     4.748e-03     2.128e-02     2.016e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7056888 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7803024 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8208659 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8414890 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8525000 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8570879 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8588457 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8603083 m 
+OPTIMISATION ITERATION FINISHED     R: 8601327 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8603796 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8603632 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8602715 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8601602 m 
+OPTIMISATION ITERATION FINISHED     R: 8601331 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8604147 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601328 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    8         303   -1.032077e+00     0.000e+00     8.235e-02     4.161e-02     3.525e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6806450 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7545065 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 5 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7959752 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8203173 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8347420 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8431753 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8472000 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8522856 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8551232 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8565242 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8579366 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8583300 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8586943 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8595040 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8596653 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8596962 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8597545 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8597409 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599159 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8600909 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8604461 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8601868 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8601155 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8603545 m 
+OPTIMISATION ITERATION FINISHED     R: 8602159 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602155 m 
+OPTIMISATION ITERATION FINISHED     R: 8601944 m 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+OPTIMISATION ITERATION FINISHED     R: 8601714 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602156 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+    9         344   -1.032176e+00     0.000e+00     7.979e-04     1.065e-03     3.061e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 52251 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 5483047 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6880909 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7763999 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8240076 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8459869 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8527451 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8545033 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8555045 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8578588 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8580683 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 8 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8592277 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8593832 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599467 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599615 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8598550 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599498 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599280 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8599258 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8598835 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8598935 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8601895 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8602039 m 
+OPTIMISATION ITERATION FINISHED     R: 8601298 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8601856 m 
+OPTIMISATION ITERATION FINISHED     R: 8602298 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8603688 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8601846 m 
+OPTIMISATION ITERATION FINISHED     R: 8602302 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8602087 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8601856 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602299 m 
+OPTIMISATION ITERATION FINISHED     R: 8601856 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+   10         387   -1.032193e+00     0.000e+00     3.910e-04     6.172e-04     1.380e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8602396 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8672133 m 
+OPTIMISATION ITERATION FINISHED     R: 8672221 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672303 m 
+OPTIMISATION ITERATION FINISHED     R: 8670821 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672858 m 
+OPTIMISATION ITERATION FINISHED     R: 8672544 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672484 m 
+OPTIMISATION ITERATION FINISHED     R: 8671522 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672858 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+OPTIMISATION ITERATION FINISHED     R: 8672530 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+   11         409   -1.040620e+00     0.000e+00     7.000e-01     5.810e-01     2.138e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6467708 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7577095 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8192685 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8505695 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8618029 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674329 m 
+OPTIMISATION ITERATION FINISHED     R: 8676935 m 
+OPTIMISATION ITERATION FINISHED     R: 8673990 m 
+OPTIMISATION ITERATION FINISHED     R: 8673475 m 
+OPTIMISATION ITERATION FINISHED     R: 8674854 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674834 m 
+OPTIMISATION ITERATION FINISHED     R: 8677503 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8673990 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674595 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8674835 m 
+OPTIMISATION ITERATION FINISHED     R: 8676193 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8674835 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+OPTIMISATION ITERATION FINISHED     R: 8674496 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+   12         435   -1.040856e+00     0.000e+00     1.681e-01     9.406e-02     3.597e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 6096137 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7250217 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 7868739 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8270721 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8458084 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8549607 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8595210 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8622230 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8651298 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8658891 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8662786 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8667985 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8666439 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8667841 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8670068 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8673362 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8672175 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8675539 m 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+OPTIMISATION ITERATION FINISHED     R: 8675306 m 
+OPTIMISATION ITERATION FINISHED     R: 8676409 m 
+OPTIMISATION ITERATION FINISHED     R: 8674863 m 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+OPTIMISATION ITERATION FINISHED     R: 8675883 m 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+OPTIMISATION ITERATION FINISHED     R: 8675643 m 
+OPTIMISATION ITERATION FINISHED     R: 8676391 m 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+OPTIMISATION ITERATION FINISHED     R: 8674574 m 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+OPTIMISATION ITERATION FINISHED     R: 8676678 m 
+OPTIMISATION ITERATION FINISHED     R: 8675884 m 
+OPTIMISATION ITERATION FINISHED     R: 8676390 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+   13         473   -1.041023e+00     0.000e+00     2.326e-03     1.859e-03     1.584e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 47804 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+Warning: airfoil transonic analysis diverged:no output produced 
+> In Q3D_solver
+In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 7590152 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In get_newAC (line 22)
+In Constraints (line 4)
+In main>@(x_norm)Constraints(x_norm,x0,REF) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8125336 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8455661 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Warning: Attention!:2D aerodynamic analysis did not converge in section 7 ! Values are mantained to continue the
+optimization iteration.Aerodynamic results should be checked at the end. 
+> In Q3D_solver
+In get_Q3D (line 72)
+In Optimization (line 22)
+In main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+In sqpInterface
+In fmincon (line 671)
+In main (line 164) 
+OPTIMISATION ITERATION FINISHED     R: 8594017 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8637215 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8658038 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8666448 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8666445 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8667999 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8673009 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214962 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+OPTIMISATION ITERATION FINISHED     R: 8681275 m 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+OPTIMISATION ITERATION FINISHED     R: 8678264 m 
+OPTIMISATION ITERATION FINISHED     R: 8681663 m 
+OPTIMISATION ITERATION FINISHED     R: 8682816 m 
+OPTIMISATION ITERATION FINISHED     R: 8680588 m 
+OPTIMISATION ITERATION FINISHED     R: 8680743 m 
+OPTIMISATION ITERATION FINISHED     R: 8677646 m 
+OPTIMISATION ITERATION FINISHED     R: 8680072 m 
+OPTIMISATION ITERATION FINISHED     R: 8681242 m 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+OPTIMISATION ITERATION FINISHED     R: 8681274 m 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+OPTIMISATION ITERATION FINISHED     R: 8681094 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+OPTIMISATION ITERATION FINISHED     R: 8681499 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 216993 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+OPTIMISATION ITERATION FINISHED     R: 8680861 m 
+OPTIMISATION ITERATION FINISHED     R: 8681157 m 
+OPTIMISATION ITERATION FINISHED     R: 8681275 m 
+OPTIMISATION ITERATION FINISHED     R: 8681481 m 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+   14         505   -1.041648e+00     0.000e+00     1.977e-02     4.340e-02     4.068e+00  
+MDA Iteration: 0     Wing weight: 44293 kg     MTOW: 217000 kg 
+MDA Iteration: 0     Wing weight: 42262 kg     MTOW: 214969 kg 
+MDA Iteration: 1     Wing weight: 42262 kg     MTOW: 214969 kg 
+Output argument "Alfa" (and possibly others) not assigned a value in the execution with "Q3D_solver>Xfoil" function.
+
+Error in Q3D_solver
+
+Error in get_Q3D (line 72)
+    AeroResults = Q3D_solver(AC);
+                  ^^^^^^^^^^^^^^
+Error in Optimization (line 22)
+MOD.Res.vis = get_Q3D(MOD, MOD.Mission.dp, MOD.W.des, "viscous"); %viscous analysis to obtain Drag
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in main>@(x_norm)Optimization(x_norm,MOD,REF,x0) (line 164)
+    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, x0, REF), options);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in sqpInterface
+
+Error in fmincon (line 671)
+                [X,FVAL,EXITFLAG,OUTPUT,LAMBDA,GRAD,HESSIAN] = sqpInterface(funfcn,X,full(A),full(B),full(Aeq),full(Beq), ...
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in main (line 164)
+    [x_opt_norm, R_opt, EXITFLAG, OUTPUT] = fmincon(@(x_norm) Optimization(x_norm, MOD, REF, x0), x0_norm, [], [] , [] , [] , lb_norm, ub_norm, @(x_norm) Constraints(x_norm, x0, REF), options);
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+
+IdleTimeout has been reached.
+Parallel pool using the 'Processes' profile is shutting down.
+>> 
